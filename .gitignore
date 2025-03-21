@@ -1,3 +1,5 @@
 *.iso
 *.exe
 *.xz
+taps/
+.vscode/
