@@ -55,3 +55,9 @@ After getting hacked multiple times, through various means, decided to create a 
 1. Use Gparted to format USB flashdisk [ 1 Ext4 partition + 1 Swap partition ]
 2. Use DD to write Ubuntu ISO to USB flashdisk [ https://linuxconfig.org/burning-cds-over-the-internet-with-or-without-iso-image ]
 3. Install sdcard inside raspberry pi
+
+# Windows commands
+1. `netstat -nao` - list processes and ports they are using
+   - `netstat -naob` - requires administrator access
+2. `tasklist` - list processes running currently
+3. `wireshark` - capture from interface and rotate file based on duration
