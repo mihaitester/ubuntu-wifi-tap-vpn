@@ -56,6 +56,13 @@ After getting hacked multiple times, through various means, decided to create a 
 2. Use DD to write Ubuntu ISO to USB flashdisk [ https://linuxconfig.org/burning-cds-over-the-internet-with-or-without-iso-image ]
 3. Install sdcard inside raspberry pi
 
+# Configuring RaspAP
+1. Install [ https://raspap.com/ ]
+   - note however that setting up this will make it difficult to configure
+
+# Configuring firewall
+1. Install `ufw` [ https://forums.raspberrypi.com/viewtopic.php?t=369871 ] - for easier firewall management
+
 # Windows commands
 1. `netstat -nao` - list processes and ports they are using
    - `netstat -naob` - requires administrator access
