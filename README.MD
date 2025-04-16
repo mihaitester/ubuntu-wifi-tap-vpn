@@ -68,3 +68,9 @@ After getting hacked multiple times, through various means, decided to create a 
    - `netstat -naob` - requires administrator access
 2. `tasklist` - list processes running currently
 3. `wireshark` - capture from interface and rotate file based on duration
+
+
+# Important
+1. `TP_Link_1718` - someone in proximity to my location is actively hacking me and cloning my WIFI configurations
+   - he makes some sort of clone network with same SSID which then spoofs my password when my laptop or my phone tries to connect to the legit network
+   - I have tried using `5GHz` and `WPA3` - security but he is actively jamming those attempts, forcing me to either use `2Ghz` or `WPA/WPA2` password encryption which makes me think those are hackable
