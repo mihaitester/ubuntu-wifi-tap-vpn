@@ -22,11 +22,11 @@ rem why does this spam files, makes me think not just of rootkitted OS, but of f
 rem so having %datetime% instead of %date_time% fixes the issue, means CMD parser is broken
 
 echo %datetime% >> "netstat_%starttime%.txt"
-netstat -nao >> "netstat_%starttime%.txt"
+netstat.exe -nao >> "netstat_%starttime%.txt"
 rem this requires administrator priviledges
 rem netstat -nao >> "netstat_%starttime%.txt"
 echo %datetime% >> "tasklist_%starttime%.txt"
-tasklist >> "tasklist_%starttime%.txt"
+tasklist.exe >> "tasklist_%starttime%.txt"
 
 rem having script with same name as command hijacks the command
 timeout /t 5 /nobreak
