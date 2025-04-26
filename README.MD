@@ -111,3 +111,4 @@ After getting hacked multiple times, through various means, decided to create a 
    - see `Diagram 3`
 3. Now the only thing left is to figure out how to detect if the OS client is `rootkitted`. Another idea would be to add a cable trap, so that ISP hijacking can be captured.
    - see `Diagram 4`
+4. Physically removed `wifi card` from client laptop, to disable client laptop from being able to get backdoored via custom NIC exploit.
