@@ -131,3 +131,4 @@ After getting hacked multiple times, through various means, decided to create a 
 5. Weird `RF emissions` from laptop stopped after unpluggin the speakers and subwoofer from motherboard.
 6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbouring buildings.
    - see `Diagram 5`
+   - got readings of over `8 mW/m2` inside my house near the wall, which is like smartphone connecting to cell towers during a call, hence highly recommend anyone to buy themselves a `EF/MF/RF detector`
