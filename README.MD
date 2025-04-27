@@ -9,6 +9,8 @@ After getting hacked multiple times, through various means, decided to create a 
 5. Adding `VPN layer` so that all packets leaving through ISP are encrypted. However this will require another computer to be set up as VPN server.
    - see `Diagram 2`
 
+* Using windows commands such as `netstat` and `tasklist`, to be able to backtrack which processes were holding open which connections and ports. Ideally this would be done instead using some windows driver written in C as that would be more reliable.
+
 # Diagram 1
                                        [5]
                                         .
@@ -99,7 +101,6 @@ After getting hacked multiple times, through various means, decided to create a 
 2. `tasklist` - list processes running currently
 3. `wireshark` - capture from interface and rotate file based on duration
 
-
 # Important
 1. `TP_Link_1718` - someone in proximity to my location is actively hacking me and cloning my WIFI configurations
    - he makes some sort of clone network with same SSID which then spoofs my password when my laptop or my phone tries to connect to the legit network
@@ -113,3 +114,4 @@ After getting hacked multiple times, through various means, decided to create a 
    - see `Diagram 4`
 4. Physically removed `wifi card` from client laptop, to disable client laptop from being able to get backdoored via custom NIC exploit.
 5. Weird `RF emissions` from laptop stopped after unpluggin the speakers and subwoofer from motherboard.
+6. As soon as Ethernet adapter is plugged in laptop starts `emitting RF`, despite WIFI card being removed and antennas unplugged. Based on detection, emissions seem to come from around the `SDD hard disk` slot.
