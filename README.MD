@@ -114,4 +114,4 @@ After getting hacked multiple times, through various means, decided to create a 
    - see `Diagram 4`
 4. Physically removed `wifi card` from client laptop, to disable client laptop from being able to get backdoored via custom NIC exploit.
 5. Weird `RF emissions` from laptop stopped after unpluggin the speakers and subwoofer from motherboard.
-6. As soon as Ethernet adapter is plugged in laptop starts `emitting RF`, despite WIFI card being removed and antennas unplugged. Based on detection, emissions seem to come from around the `SDD hard disk` slot.
+6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbours.
