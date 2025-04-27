@@ -8,6 +8,7 @@ After getting hacked multiple times, through various means, decided to create a 
 4. Adding `firewalls` to the inner network and the outer network.
 5. Adding `VPN layer` so that all packets leaving through ISP are encrypted. However this will require another computer to be set up as VPN server.
    - see `Diagram 2`
+6. Trying to detect `hijacking` of laptop through `RF emissions`, as observed, basically devices passing by connecting to a laptop without being paired or approved. From observation, CPU or RAM memory seems to be susceptible to such manipulations, or there are other on board devices which can receive foreign signals and activate backdoors.
 
 * Using windows commands such as `netstat` and `tasklist`, to be able to backtrack which processes were holding open which connections and ports. Ideally this would be done instead using some windows driver written in C as that would be more reliable.
 
@@ -57,7 +58,7 @@ After getting hacked multiple times, through various means, decided to create a 
 # Diagram 4
                                               [5]
                                                .
-                        [4]                    .                [4]
+                         [4]                   .                [4]
     Client laptop         .                    .                 .        ISP Modem / Router
      ________             .           Mini computer tap          .               __
     |        |            .                ________              .              |  |
@@ -67,6 +68,18 @@ After getting hacked multiple times, through various means, decided to create a 
          .                                                                       .
          .                                                                       .
         [2]                                                                     [3]
+
+# Diagram 5
+
+    Hijacking Hacker           Client laptop                       ISP Modem 
+       ________                  ________                              __
+      |        |                |        |                            |  |
+      |________|----(  RF  )----|________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
+      \________\       .        /________/                            |__|
+                       .             .                                  .
+                       .             .                                  .
+                      [6]            .                                  .
+                                    [2]                                [3]
 
 # Docs
 
@@ -108,10 +121,13 @@ After getting hacked multiple times, through various means, decided to create a 
    - tried using low power settings on all devices, which should make them invisible outside of building and fenced property, yet I still get hacked when using `wifi`
       - this means hacking device has to be inside property or that some relay is used inside property
       - see `Diagram 1`
+
 2. After getting powned through `Wifi`, decided to drop altogether the wifi trap and to move directly to cable, and disable `Wifi` on computer and on modem. 
    - see `Diagram 3`
 3. Now the only thing left is to figure out how to detect if the OS client is `rootkitted`. Another idea would be to add a cable trap, so that ISP hijacking can be captured.
    - see `Diagram 4`
+
 4. Physically removed `wifi card` from client laptop, to disable client laptop from being able to get backdoored via custom NIC exploit.
 5. Weird `RF emissions` from laptop stopped after unpluggin the speakers and subwoofer from motherboard.
-6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbours.
+6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbouring buildings.
+   - see `Diagram 5`
