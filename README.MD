@@ -26,7 +26,8 @@ After getting hacked multiple times, through various means, decided to create a 
          .            ___|____                                              .
         [2]          |        |                                            [3]
                      |________|
-                      \________\
+                     \________\
+
              Snooping / Hijacking Hacker
                             .
                             .
@@ -81,6 +82,29 @@ After getting hacked multiple times, through various means, decided to create a 
                       [6]            .                                  .
                                     [2]                                [3]
 
+# Diagram 6
+                                             [3]
+                                              .
+                                              .
+                                              .
+     Client laptop                       ISP Modem 
+       ________                              __
+      |        |                            |  |
+      |________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
+      /________/                            |__|
+            .                                 |
+            .                                (RF)
+            .                             ____|____
+           [2]                           |         |
+                                         |_________|
+                                          \_________\
+                                                            
+                                         Hijacking Hacker
+                                                .
+                                                .
+                                                .
+                                               [6]
+
 # Docs
 
 # Requirements
@@ -128,7 +152,10 @@ After getting hacked multiple times, through various means, decided to create a 
    - see `Diagram 4`
 
 4. Physically removed `wifi card` from client laptop, to disable client laptop from being able to get backdoored via custom NIC exploit.
-5. Weird `RF emissions` from laptop stopped after unpluggin the speakers and subwoofer from motherboard.
+5. Weird `RF emissions` from laptop stopped after unplugging the speakers and subwoofer from motherboard.
 6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbouring buildings.
    - see `Diagram 5`
-   - got readings of over `8 mW/m2` inside my house near the wall, which is like smartphone connecting to cell towers during a call, hence highly recommend anyone to buy themselves a `EF/MF/RF detector`
+      - got readings of over `8 mW/m2` inside my house near the wall, which is like smartphone connecting to cell towers during a call, hence highly recommend anyone to buy themselves a `EF/MF/RF detector`
+   - see `Diagram 6`
+      - wifi emissions of ISP router disabled, no `2.4Ghz`, `5Ghz` or `Guest` networks enabled
+      - getting lagging internet connection, and on wireshark lots of `[TCP retransmission]` packets, which sometimes causes laptop to run super slower
