@@ -156,6 +156,7 @@ After getting hacked multiple times, through various means, decided to create a 
 6. Confirmed nothing from the laptop is emitting RF. Moved further away from outer wall to avoid envelope of emission from neigbouring buildings.
    - see `Diagram 5`
       - got readings of over `8 mW/m2` inside my house near the wall, which is like smartphone connecting to cell towers during a call, hence highly recommend anyone to buy themselves a `EF/MF/RF detector`
+      - started observing that after couple of hours the `RF emission` follows my location inside the house hence need to get updated readings and move around
    - see `Diagram 6`
       - wifi emissions of ISP router disabled, no `2.4Ghz`, `5Ghz` or `Guest` networks enabled
       - getting lagging internet connection, and on wireshark lots of `[TCP retransmission]` packets, which sometimes causes laptop to run super slower
