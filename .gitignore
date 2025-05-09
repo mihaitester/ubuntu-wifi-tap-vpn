@@ -2,4 +2,5 @@
 *.exe
 *.xz
 taps/
+apps/
 .vscode/

@@ -160,3 +160,5 @@ After getting hacked multiple times, through various means, decided to create a 
    - see `Diagram 6`
       - wifi emissions of ISP router disabled, no `2.4Ghz`, `5Ghz` or `Guest` networks enabled
       - getting lagging internet connection, and on wireshark lots of `[TCP retransmission]` packets, which sometimes causes laptop to run super slower
+
+7. If opening `firefox.exe` regularly, then over time the `wireshark.exe` capture laggs behind and gets delayed `10min - 30min` or even more. While processor is limited I do not think its normal for this to happen, because when using just `chrome.exe` the same behaviour does not happen. Attached scripts that limit processor access of the browsers to avoid hidden exploits triggering `explorer.exe` on file download.
