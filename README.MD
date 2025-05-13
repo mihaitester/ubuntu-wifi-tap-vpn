@@ -162,3 +162,16 @@ After getting hacked multiple times, through various means, decided to create a 
       - getting lagging internet connection, and on wireshark lots of `[TCP retransmission]` packets, which sometimes causes laptop to run super slower
 
 7. If opening `firefox.exe` regularly, then over time the `wireshark.exe` capture laggs behind and gets delayed `10min - 30min` or even more. While processor is limited I do not think its normal for this to happen, because when using just `chrome.exe` the same behaviour does not happen. Attached scripts that limit processor access of the browsers to avoid hidden exploits triggering `explorer.exe` on file download.
+
+8. Removed the HDD after observed its getting randomly turned on when connecting power plug or ethernet cable.
+
+9. Observed the laptop is emitting 'RF' signal from around the `SSD` area, so far disconnected `speakers`, `HDD`, `Wifi card` and disabled Nvidia graphic card. So the only things that could emit are the `motherboard`, `CPU`, `SSD`.
+   Wall:
+      - Neighbouring wall constantly emits over `1mW/m2`, even if laptop is turned off or unplugged from ethernet and power cable.
+      - If not connected to ethernet or to power plug, laptop does not emit, which causes neighbouring wall to stop emitting over `2mW/m2`.
+   Laptop:
+      - If increasing distance from neighbouring wall, then laptop emissions stop.
+      - If removing power plug getting reduced readings from `8mW/m2` to `2.5mW/m2`.
+      
+      - `!!!` If connecting `power plug` or `ethernet` cable laptop starts emitting `RF` `!!!`
+   
