@@ -6,8 +6,6 @@ fi
 echo duration=${duration}
 
 bash -c ./eth0.sh $duration &
-bash -c ./eth1.sh $duration &
-bash -c ./br0.sh $duration &
 
 # note: observed weird packets on loopback interface before getting hacked
 bash -c ./lo.sh $duration &
