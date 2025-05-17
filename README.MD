@@ -98,7 +98,7 @@ After getting hacked multiple times, through various means, decided to create a 
            [2]                           |         |
                                          |_________|
                                           \_________\
-                                                            
+
                                          Hijacking Hacker
                                                 .
                                                 .
@@ -108,11 +108,16 @@ After getting hacked multiple times, through various means, decided to create a 
 # Docs
 
 # Requirements
-1. mini computer / raspberry pi
-2. 1 sdcard 32GB [ write ubuntu ISO ]
+1. 1 X mini computer / raspberry pi
+2. 1 X sdcard 32GB [ write ubuntu ISO ]
+3. 2 X ethernet cables
+4. 1 / 2 X ethernet adapters to USB - depending if client laptop has RJ45 plug or not
    ## Optional
-   3. secondary mini computer / raspberry pi
-   4. secondary sdcard 32GB
+   1. 1 X mini computer / raspberry pi - for configuring WiFi, or for VPN
+   2. 1 X sdcard 32GB
+   3. 1 X ethernet cable
+   4. 1 X ethernet adapter to USB - if using secondary raspberrypi for WiFi
+   5. 1 X dual band USB WiFi adapter - if using secondary raspberrypi for WiFi
 
 # Install from Windows
 1. Download Ubuntu linux [ https://ubuntu.com/download/raspberry-pi ]
@@ -125,20 +130,13 @@ After getting hacked multiple times, through various means, decided to create a 
 2. Use DD to write Ubuntu ISO to USB flashdisk [ https://linuxconfig.org/burning-cds-over-the-internet-with-or-without-iso-image ]
 3. Install sdcard inside raspberry pi
 
-# Configuring RaspAP
-1. Install [ https://raspap.com/ ]
-   - note however that setting up this will make it difficult to configure
-
-# Configuring firewall
-1. Install `ufw` [ https://forums.raspberrypi.com/viewtopic.php?t=369871 ] - for easier firewall management
-
 # Windows commands
 1. `netstat -nao` - list processes and ports they are using
    - `netstat -naob` - requires administrator access
 2. `tasklist` - list processes running currently
 3. `wireshark` - capture from interface and rotate file based on duration
 
-# Important
+# Important notes
 1. `TP_Link_1718` - someone in proximity to my location is actively hacking me and cloning my WIFI configurations
    - he makes some sort of clone network with same SSID which then spoofs my password when my laptop or my phone tries to connect to the legit network
    - I have tried using `5GHz` and `WPA3` - security but he is actively jamming those attempts, forcing me to either use `2Ghz` or `WPA/WPA2` password encryption which makes me think those are hackable
@@ -175,4 +173,11 @@ After getting hacked multiple times, through various means, decided to create a 
       - If connecting `power plug` to laptop, but sitting between laptop and wall, then getting `MF` readings fluctuating `0.1-0.2microT`, similarly from `SSD` area
       
       - `!!!` If connecting `power plug` or `ethernet cable` laptop starts emitting `RF` `!!!`
-   
+
+# Not used for now
+## Configuring RaspAP
+1. Install [ https://raspap.com/ ]
+   - note however that setting up this will make it difficult to configure
+
+## Configuring firewall
+1. Install `ufw` [ https://forums.raspberrypi.com/viewtopic.php?t=369871 ] - for easier firewall management
