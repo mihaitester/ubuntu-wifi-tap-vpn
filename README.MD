@@ -118,6 +118,7 @@ After getting hacked multiple times, through various means, decided to create a 
    3. 1 X ethernet cable
    4. 1 X ethernet adapter to USB - if using secondary raspberrypi for WiFi
    5. 1 X dual band USB WiFi adapter - if using secondary raspberrypi for WiFi
+   6. 1 X external HDD to collect logs
 
 # Install from Windows
 1. Download Ubuntu linux [ https://ubuntu.com/download/raspberry-pi ]
