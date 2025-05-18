@@ -105,8 +105,6 @@ After getting hacked multiple times, through various means, decided to create a 
                                                 .
                                                [6]
 
-# Docs
-
 # Requirements
 1. 1 X mini computer / raspberry pi
 2. 1 X sdcard 32GB [ write ubuntu ISO ]
@@ -179,10 +177,19 @@ After getting hacked multiple times, through various means, decided to create a 
    - this is why I am suspecting power plug is involved into the hacking of the devices
    - the only other explanation is actively getting hacked through RF from outside sources, but the only readings are near the neighbouring wall, and raspberrypi is not in range of those readings
 
-# Not used for now
+# Next steps
+1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
+2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
+   - Ideally will develop some driver for windows and driver for linux which instead of relying on usermode captures and logs.
+3. Getting newer raspberrypi or other mini computer, since the old versions are limited in power and RAM
+
+# Not used for now - useful for future developments
 ## Configuring RaspAP
-1. Install [ https://raspap.com/ ]
-   - note however that setting up this will make it difficult to configure
+1. Install `raspap` [ https://raspap.com/ ]
+   - tried this and its hard to configure the bridge afterwards, so that the tap works
+   - this is however nice interface for sharing wifi, but encountered different problems with Wifi cloned, see notes above
 
 ## Configuring firewall
 1. Install `ufw` [ https://forums.raspberrypi.com/viewtopic.php?t=369871 ] - for easier firewall management
+   - will have to figure out how to properly configure firewalls, and ideally have control of apps on the client machine, like a permission manager, blocking `bloatware` and `spyware` from sending data
+      - for example `typing data` and `audio data` which then gets used by `ad providers`
