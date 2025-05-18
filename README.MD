@@ -176,6 +176,8 @@ After getting hacked multiple times, through various means, decided to create a 
       - `!!!` If connecting `power plug` or `ethernet cable` laptop starts emitting `RF` `!!!`
    
 10. During hacking there is a sudden lag on the client laptop, in youtube streams for example, then client returns to normal, but the raspberrypi capture gets delayed and stops working, however internet connection does not experience further delays. This is weird, its like not being connected to ISP modem through the ethernet raspberry tap. Resetting raspberrypi tap breaks the network connection.
+   - this is why I am suspecting power plug is involved into the hacking of the devices
+   - the only other explanation is actively getting hacked through RF from outside sources, but the only readings are near the neighbouring wall, and raspberrypi is not in range of those readings
 
 # Not used for now
 ## Configuring RaspAP
