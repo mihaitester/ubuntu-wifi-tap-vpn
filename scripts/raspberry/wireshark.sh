@@ -1,5 +1,5 @@
 echo Observed that its better to use shorter duration values \(\<900\) capture files for raspberrypi, that is memory limited to 1Gb RAM
-duration=1800
+duration=300
 if [ "$1" != "" ]; then
 	duration=$1
 fi
