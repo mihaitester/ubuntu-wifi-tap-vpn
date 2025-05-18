@@ -177,6 +177,12 @@ After getting hacked multiple times, through various means, decided to create a 
    - this is why I am suspecting power plug is involved into the hacking of the devices
    - the only other explanation is actively getting hacked through RF from outside sources, but the only readings are near the neighbouring wall, and raspberrypi is not in range of those readings
 
+11. Observed most of the misbehaviour is while running `firefox.exe` hence had the idea to sepparate the process by limiting it to specific computer cores, so that exploits which escape from process by crashing `firefox.exe` and then a secondary `explorer.exe` spawns.
+Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `explorer.exe` for example.
+
+12. Observed that even `nautilus` on `ubuntu` gets random crashes and then request to send crash report with details, even if raspberry tap is working.
+   - these 2 last observations make me think there are different hackers trying to reach my laptop, either through ISP and exploiting processes, or through `RF`.
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
