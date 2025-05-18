@@ -174,6 +174,8 @@ After getting hacked multiple times, through various means, decided to create a 
       - If connecting `power plug` to laptop, but sitting between laptop and wall, then getting `MF` readings fluctuating `0.1-0.2microT`, similarly from `SSD` area
       
       - `!!!` If connecting `power plug` or `ethernet cable` laptop starts emitting `RF` `!!!`
+   
+10. During hacking there is a sudden lag on the client laptop, in youtube streams for example, then client returns to normal, but the raspberrypi capture gets delayed and stops working, however internet connection does not experience further delays. This is weird, its like not being connected to ISP modem through the ethernet raspberry tap. Resetting raspberrypi tap breaks the network connection.
 
 # Not used for now
 ## Configuring RaspAP
