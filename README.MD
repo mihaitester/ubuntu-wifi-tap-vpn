@@ -183,6 +183,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 12. Observed that even `nautilus` on `ubuntu` gets random crashes and then request to send crash report with details, even if raspberry tap is working.
    - these 2 last observations make me think there are different hackers trying to reach my laptop, either through ISP and exploiting processes, or through `RF`.
 
+13. This morning TV stopped twice, and then ISP modem stopped providing internet for 30min. Between 08:00-08:30 local time. This makes me think it was a diverted coaxial cable as well.
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
