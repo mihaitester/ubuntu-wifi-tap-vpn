@@ -185,6 +185,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 13. This morning `2025-05-19` TV stopped twice, and in between the ISP modem stopped providing internet for 30min. Between 08:00-08:30 local time. This makes me think it was a diverted coaxial cable as well. The other possibility is of the TV getting hacked through `IR` through a window from over 200m away, but this seems more implausible to me.
 
+14. Today, `2025-05-20` after calling a phone number, the SIM card phone number associated with the ISP mobile\internet\TV contract stopped working. Removing SIM card and plugging it back in the phone works for 5 seconds, afterwards mobile phone reports no network connection despite being in direct LOS with 3 GSM antennas. This makes me think phone is actively jammed from neighbouring houses, or ISP blocked phone number from the network. For more information see `SS7 Veritasium` on youtube, which makes me think someone was spoofing my phone number and using it for neferious means.
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
