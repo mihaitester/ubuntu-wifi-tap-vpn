@@ -169,7 +169,7 @@ After getting hacked multiple times, through various means, decided to create a 
    - Laptop:
       - If increasing distance from neighbouring wall, then laptop emissions stop.
       - If removing power plug getting reduced `RF` readings from `8mW/m2` to `2.5mW/m2`
-      - If connecting `power plug` to laptop, but sitting between laptop and wall, then getting `MF` readings fluctuating `0.1-0.2microT`, similarly from `SSD` area
+      - If connecting `power plug` to laptop, but sitting between laptop and wall, then getting `MF` readings fluctuating `0.1-0.2μT` from `SSD` area, with `cooling fans` and `HDD` disconnected from motherboard
       
       - `!!!` If connecting `power plug` or `ethernet cable` laptop starts emitting `RF` `!!!`
    
@@ -189,6 +189,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - rebooting phone with SIM card inserted seems to have fixed the issue, makes me think SIM cards load some code into phone bootup
 
 15. Today, `2025-05-21` disconnected controller gate, which asside from digital power meter is the only way for `RF` inside the electrical grid of the house. This makes me think of manually interrupting or removing plugged-in devices like `TV`, `Fridges`, `Washing machine`, `Water pump`, `Electrical Boiler`, to pin the source. If it has smart chip, and has electrical power it can transmit from inner electrical grid to outside environment.
+
+16. After doing the step above, getting `RF ~ 1-2mW/m2` over a couple of light switches around the house, usually they were emitting only `EF ~ 200-400 V/m` or `MF ~ 0.01-0.02μT` and not `RF`.
+   - all this makes me rethink the electrical wiring inside the house was messed up by latest electrician that came around
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
