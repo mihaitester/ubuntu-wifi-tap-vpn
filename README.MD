@@ -194,7 +194,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - all this makes me rethink the electrical wiring inside the house was messed up by latest electrician that came around
    - as far as I remember when we connected the electrical power to the gate we had `power plugs` and `light switches` on sepparated circuits, and the gate was not running of `main line`, but on `one phase` from `tri-phase power`, maybe recalling it wrong, but I doubt it.
       - So 2 `validated` electricians came in and swapped out correctly done circuits, one "upgraded" the electrical meters and then scrambled all the `main line` and `tri-phase` circuits, the other "fixed" plugs and switches and created a short-circuit by connecting one `null` from light switches and `ground` from power plugs.
-         - either way stuff emitting `RF` is still in the power network 
+         - either way stuff emitting `RF` is still in the power network
+
+   - for future employers: these reasons are exactly why I do not want to `work remotely` or `from home`, since I cannot digitally secure the premises, like a well managed office should be able to do
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
