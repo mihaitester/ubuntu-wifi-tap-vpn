@@ -8,8 +8,14 @@ set "starttime=%starttime::=-%"
 set "starttime=%starttime: =_%"
 echo %starttime%
 
-set timeout=5
 set looptime=1800
+if [%1] != [] (
+    if %1 GTR 0 (
+        set "looptime=%1"
+    )
+)
+set timeout=5
+
 set /a loopcount=%looptime% / %timeout%
 echo %loopcount%
 

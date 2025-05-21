@@ -1,3 +1,16 @@
+# Usage
+- if scripts do not work install the required componets and check the paths are set accordingly
+
+1. On the raspberrypi
+   - turn on first, before laptop and modem
+   - then running the `sudo ./bridge.sh` command
+   - run the `./wireshark.sh` command
+2. On the client laptop
+   - connect first the ethernet-USB adapter, then plug in the ethernet cable after a few seconds
+      - this ensures the USB device is identified as ethernet adapter and not keyboard/mouse
+   - run the `_collect_wireshark_netstat_tasklist.cmd` after logging in
+3. Power on the ISP modem and wait for the packets to start comming.
+
 # Idea
 After getting hacked multiple times, through various means, decided to create a mini tap using a mini computer such as `raspberry pi` and `wireshark`.
 
