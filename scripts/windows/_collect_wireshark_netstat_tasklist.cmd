@@ -9,6 +9,9 @@ if [%1] != [] (
     )
 )
 
+rem use this command if sharing the connection of the laptop, to get even more perspective of the wifi snooping in the area
+rem start cmd.exe /c wireshark_hotspot.cmd %duration%
+
 rem start cmd.exe /c wireshark_wifi.cmd %duration%
 start cmd.exe /c wireshark_ethernet.cmd %duration%
 
