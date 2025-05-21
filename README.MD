@@ -192,6 +192,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 16. After doing the step above, getting `RF ~ 1-2mW/m2` over a couple of light switches around the house, usually they were emitting only `EF ~ 200-400 V/m` or `MF ~ 0.01-0.02μT` and not `RF`.
    - all this makes me rethink the electrical wiring inside the house was messed up by latest electrician that came around
+   - as far as I remember when we connected the electrical power to the gate we had `power plugs` and `light switches` on sepparated circuits, and the gate was not running of `main line`, but on `one phase` from `tri-phase power`, maybe recalling it wrong, but I doubt it. So 2 `validated` electricians came in and swapped out correctly done circuits, one `upgraded` the electrical meters, the other `fixed` plugs and switches.
+      - either way stuff is still in the power network 
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
