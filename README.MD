@@ -211,6 +211,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
    - for future employers: these reasons are exactly why I do not want to `work remotely` or `from home`, since I cannot digitally secure the premises, like a well managed office should be able to do
 
+17. Since today `2025-05-22` observed that both mobile phones that are around me, have GSM signal without having SIM card installed. That is not normal. Yesterday got some weird proximity hack to the phones.
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
