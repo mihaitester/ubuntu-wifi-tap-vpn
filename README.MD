@@ -247,6 +247,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
    - Ideally will develop some driver for windows and driver for linux which instead of relying on usermode captures and logs.
 3. Getting newer raspberrypi or other mini computer, since the old versions are limited in power and RAM
+4. Based on dynamical observations, some RF is not constant, need to create some devices for snooping RF and taking recordings and GPS coordinates of the emissions, pin pointing devices that emmit just when activated from outside RF or from electrical grid
 
 # Not used for now - useful for future developments
 ## Configuring RaspAP
