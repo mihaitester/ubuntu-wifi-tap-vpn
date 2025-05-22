@@ -213,6 +213,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 17. Since today `2025-05-22` observed that both mobile phones that are around me, have GSM signal without having SIM card installed. That is not normal. Yesterday got some weird proximity hack to the phones.
 
+18. Today `2025-05-22` observed `RF ~ 0.5mW/m2` from IDLE water pump system. This is not normal as the pressure-switch which activates the water pump is based on mechanical push, and not on digital systems. Could be the electrical power grid is pushing signal through to water pump through power cable, but I doubt it.
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
