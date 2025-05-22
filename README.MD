@@ -225,8 +225,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
         __________  : |A   |     |      |_____  :
        |          | : |    |     |            | :
        |          | : |    |     |            | :
-       |          | : |CM_B|     |            | :
-       |_________D| :            |___K________| :
+       |          | D |CM_B|     |            | :
+       |__________| 1            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
                               H
@@ -236,7 +236,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 - B - TV and ISP modem `(RF ~ 0mW/m2)` 
    - wifi turned off for both
 - C - wall inside house `(RF ~ 1-2mW/m2)`
-- D - neighbour house `(RF ~ 4-5mW/m2)`
+- D - neighbour fence `(RF ~ 4-5mW/m2)`
+- 1 - neghbour house `(RF ~ 5-6mW/m2)`
 - E - neighbour fence `(RF ~ 4-5mW/m2)`
 - F - main gate controller `(RF ~ 0mW/m2)` 
    - stopped completely
