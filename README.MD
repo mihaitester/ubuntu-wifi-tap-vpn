@@ -215,6 +215,30 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 18. Today `2025-05-22` observed `RF ~ 0.5mW/m2` from IDLE water pump system. This is not normal as the pressure-switch which activates the water pump is based on mechanical push, and not on digital systems. Could be the electrical power grid is pushing signal through to water pump through power cable, but I doubt it.
 
+# Everything diagram
+                    :---------------------------:
+                    :         K   ______        :
+      --------------:  __G_      |      |       :
+        __________  : |A   |     |      |_____  :
+       |          | : |    |     |            | :
+       |          | : |    |     |            | :
+       |          | : |C__B|     |            | :
+       |_________D| :            |____________| :
+                    :           F      J      E :
+      --------------:-------[---]---------------:
+                              H
+
+- A - water pump (RF ~ 0.5mW/m2) - despite it being pressure switch
+- B - TV and ISP modem (RF ~ 0mW/m2) - wifi turned off for both
+- C - wall inside house (RF ~ 1-2mW/m2)
+- D - neighbour house (RF ~ 4-5mW/m2)
+- E - neighbour fence (RF ~ 4-5mW/m2)
+- F - main gate controller (RF ~ 0mW/m2) - stopped
+- G - outside power plug and light switch (RF ~ 1mW/m2)
+- H - readings around front fence (RF ~ 4-8mW/m2) - in LOS of nearby antennas
+- J - gas meter shutoff valve (RF ~ 4mW/m2) - connected to power inside house
+- K - readings inside property boundary (RF ~ 0mW/m2) - usually, except for points above
+
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
 2. Need to write some client-server interface, that automatically uploads capture files to a third computer which will analyse the files.
