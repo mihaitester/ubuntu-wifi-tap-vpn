@@ -219,28 +219,39 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
                     :---------------------------:
-                    :         L   ______        :
-      --------------:  __G_      |      |       :
+                    :  ____                  __ :
+                    : |____|  L   ______    |  |:
+      --------------:  __G_      |      |   |__|:
         __________  : |A   |     |      |_____  :
        |          | : |    |     |            | :
        |          | : |    |     |            | :
-       |          | : |C__B|     |            | :
+       |          | : |CM_B|     |            | :
        |_________D| :            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
                               H
 
-- A - water pump (RF ~ 0.5mW/m2) - despite it being pressure switch
-- B - TV and ISP modem (RF ~ 0mW/m2) - wifi turned off for both
-- C - wall inside house (RF ~ 1-2mW/m2)
-- D - neighbour house (RF ~ 4-5mW/m2)
-- E - neighbour fence (RF ~ 4-5mW/m2)
-- F - main gate controller (RF ~ 0mW/m2) - stopped
-- G - outside power plug and light switch (RF ~ 1mW/m2)
-- H - readings around front fence (RF ~ 4-8mW/m2) - in LOS of nearby antennas
-- J - gas meter shutoff valve (RF ~ 4mW/m2) - connected to power inside house
-- K - digital electrical meters (RF ~ 2mW/m2) - despite company saying these are not self reporting index meters
-- L - readings inside property boundary (RF ~ 0mW/m2) - usually, except for points above
+- A - water pump `(RF ~ 0.5mW/m2)` 
+   - despite it being pressure switch
+- B - TV and ISP modem `(RF ~ 0mW/m2)` 
+   - wifi turned off for both
+- C - wall inside house `(RF ~ 1-2mW/m2)`
+- D - neighbour house `(RF ~ 4-5mW/m2)`
+- E - neighbour fence `(RF ~ 4-5mW/m2)`
+- F - main gate controller `(RF ~ 0mW/m2)` 
+   - stopped completely
+- G - outside power plug and light switch `(RF ~ 1mW/m2)`
+- H - readings around front fence `(RF ~ 4-8mW/m2)` 
+   - in LOS of nearby antennas
+- J - gas meter shutoff valve `(RF ~ 4mW/m2)`
+   - connected to power inside house
+- K - digital electrical meters `(RF ~ 2mW/m2)` 
+   - despite company saying these are not self reporting index meters
+- L - readings inside property boundary `(RF ~ 0mW/m2)`
+   - usually, except for points above
+- M - laptop readings `(RF ~ 0mW/m2)` after removing `battery`, `HDD`, `WIFI` card, `speakers`, 
+   - however sometimes still got (RF ~ 4mW/m2) from `motherboard` or from `SSD`, not from `CPU` or `GPU` 
+   - this is where all this `RF` investigationss started
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
