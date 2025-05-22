@@ -219,13 +219,13 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
                     :---------------------------:
-                    :         K   ______        :
+                    :         L   ______        :
       --------------:  __G_      |      |       :
         __________  : |A   |     |      |_____  :
        |          | : |    |     |            | :
        |          | : |    |     |            | :
        |          | : |C__B|     |            | :
-       |_________D| :            |____________| :
+       |_________D| :            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
                               H
@@ -239,7 +239,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 - G - outside power plug and light switch (RF ~ 1mW/m2)
 - H - readings around front fence (RF ~ 4-8mW/m2) - in LOS of nearby antennas
 - J - gas meter shutoff valve (RF ~ 4mW/m2) - connected to power inside house
-- K - readings inside property boundary (RF ~ 0mW/m2) - usually, except for points above
+- K - digital electrical meters (RF ~ 2mW/m2) - despite company saying these are not self reporting index meters
+- L - readings inside property boundary (RF ~ 0mW/m2) - usually, except for points above
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
