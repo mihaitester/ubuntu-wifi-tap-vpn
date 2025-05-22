@@ -215,7 +215,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 18. Today `2025-05-22` observed `RF ~ 0.5mW/m2` from IDLE water pump system. This is not normal as the pressure-switch which activates the water pump is based on mechanical push, and not on digital systems. Could be the electrical power grid is pushing signal through to water pump through power cable, but I doubt it.
 
-# Everything diagram
+# RF map - everything diagram
+- main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
+
                     :---------------------------:
                     :         K   ______        :
       --------------:  __G_      |      |       :
