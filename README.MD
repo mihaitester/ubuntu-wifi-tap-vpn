@@ -181,6 +181,7 @@ After getting hacked multiple times, through various means, decided to create a 
    - tried using low power settings on all devices, which should make them invisible outside of building and fenced property, yet I still get hacked when using `wifi`
       - this means hacking device has to be inside property or that some relay is used inside property
       - see `Diagram 1`
+      - #Thanks neighbours
 
 2. After getting powned through `Wifi`, decided to drop altogether the wifi trap and to move directly to cable, and disable `Wifi` on computer and on modem. 
    - see `Diagram 3`
@@ -242,7 +243,14 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 18. Today `2025-05-22` observed `RF ~ 0.5mW/m2` from IDLE water pump system. This is not normal as the pressure-switch which activates the water pump is based on mechanical push, and not on digital systems. Could be the electrical power grid is pushing signal through to water pump through power cable, but I doubt it.
 
 19. Thinking that copper pipes inside house are used to relay the signal to and from laptop, hence thinking of something connected to pipes inside the house, could be `electric boiler`, `wood burning boiler` or `gas burning boiler` - however all are turned off, or some other device inserted and connected to pipes. Or its the `water pump`. 
-   - I have a hunch its the `water pump` and some other device that could be dropped down chimney to come in proximity to copper pipes.
+   - I have a hunch its the `water pump` and some other device that could be dropped down chimney to come in proximity to copper pipes. 
+   - #Thanks plumbers.
+
+20. Found out today `2025-05-23` that `gas burning boiler` emmits `RF`, despite it being unplugged from power. So there is some device in its proximity emitting RF. 
+   - #Thanks gas installers.
+
+21. Some `power plugs` and some `light switches` emmit `RF` while others do not, despite being on the same circuit, in both buildings on the property. 
+   - #Thanks electricians.
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
@@ -254,34 +262,37 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
         __________  : |A   |     |      |_____  :
        |          | : |    |     |            | :
        |          | : |    |     |            | :
-       |          | D |CM_B|     |            | :
+       |          | D |CM_B|     |           N| :
        |__________| 1            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
                               H
 
-- A - water pump `(RF ~ 0.5mW/m2)` 
+- A - water pump `(RF ~ 0.5mW/m2)`
    - despite it being pressure switch
-- B - TV and ISP modem `(RF ~ 0mW/m2)` 
+- B - TV and ISP modem `(RF ~ 0mW/m2)`
    - wifi turned off for both
 - C - wall inside house `(RF ~ 1-2mW/m2)`
 - D - neighbour fence `(RF ~ 4-5mW/m2)`
 - 1 - neghbour house `(RF ~ 5-6mW/m2)`
 - E - neighbour fence `(RF ~ 4-5mW/m2)`
-- F - main gate controller `(RF ~ 0mW/m2)` 
+- F - main gate controller `(RF ~ 0mW/m2)`
    - stopped completely
 - G - outside power plug and light switch `(RF ~ 1mW/m2)`
-- H - readings around front fence `(RF ~ 4-8mW/m2)` 
+- H - readings around front fence `(RF ~ 4-8mW/m2)`
    - in LOS of nearby antennas
 - J - gas meter shutoff valve `(RF ~ 4mW/m2)`
    - connected to power inside house
-- K - digital electrical meters `(RF ~ 2mW/m2)` 
+- K - digital electrical meters `(RF ~ 2mW/m2)`
    - despite company saying these are not self reporting index meters
 - L - readings inside property boundary `(RF ~ 0mW/m2)`
    - usually, except for points above
-- M - laptop readings `(RF ~ 0mW/m2)` after removing `battery`, `HDD`, `WIFI` card, `speakers`, 
-   - however sometimes still got (RF ~ 4mW/m2) from `motherboard` or from `SSD`, not from `CPU` or `GPU` 
-   - this is where all this `RF` investigationss started
+- M - laptop readings `(RF ~ 0mW/m2)` after removing `battery`, `HDD`, `WIFI` card, `speakers`,
+   - however sometimes still got (RF ~ 4mW/m2) from `motherboard` or from `SSD`, not from `CPU` or `GPU`
+   - this is where all this `RF` investigations started
+- N - gas boiler readings `(RF ~ 5-6mW/m2)`
+   - turned off completely, so what is powering this emissions ???
+   - carbon dioxide sensor and auto-shutoff valve also not powered
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
