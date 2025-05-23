@@ -1,6 +1,8 @@
 # Summary of research
 ## Security recommendations based on observations
 - Disable `auto-updates` for laptop and phones, and `auto-connect` to WiFi as hackers use these 2 to enter systems, change apps, and then leave the system without leaving trace of their hacking. These are the only 2 measures that can delay or block some intrusions, however for `RF` hacking the only solution is to increase distance, or not leave systems turned on when not in use.
+   - always be mindful of the place where connecting to `WiFi` and updating apps, never do it from `mobile network` or from `wifi` from public places 
+      - ideally always use hardline when doing updates
    - never use banking app phones connected to `WiFi` 
    - get `usb-ethernet adapter` and `USB3 to USB-C adapter` for phone when connecting to banking apps
    - `SMS` alerts are not enough for `2FA`, as you can see in the `Netflix series Mr. Robot`, GSM towers can be faked and one time codes can be intercepted
