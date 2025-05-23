@@ -1,5 +1,6 @@
 # Usage
-- if scripts do not work install the required componets and check the paths are set accordingly
+- if scripts do not work install the required components and check the paths are set accordingly
+- see `Diagram 7` to get overview of how the scripts are getting used
 
 1. On the raspberrypi
    - turn on first, before laptop and modem
@@ -117,6 +118,20 @@ After getting hacked multiple times, through various means, decided to create a 
                                                 .
                                                 .
                                                [6]
+
+# Diagram 7
+                                                                    [5]
+                                                                     .
+                                     [4]                             .                [4]
+    Client laptop                     .                              .                 .        ISP Modem / Router
+     ________                         .                     Mini computer tap          .               __
+    |        |                        .                          ________              .              |  |
+    |________|--[usb-eth]=====[   ETH cable   ]======[usb-eth]--|________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
+    /________/                                                                                        |__|
+         .                                                                                              .
+         .                                                                                              .
+         .                                                                                              .
+        [2]                                                                                            [3]
 
 # Requirements
 1. 1 X mini computer / raspberry pi
