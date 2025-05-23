@@ -1,3 +1,12 @@
+# Summary of research
+## Security recommendations based on observations
+- Disable `auto-updates` for laptop and phones, and `auto-connect` to WiFi as hackers use these 2 to enter systems, change apps, and then leave the system without leaving trace of their hacking. These are the only 2 measures that can delay or block some intrusions, however for `RF` hacking the only solution is to increase distance, or not leave systems turned on when not in use.
+   - never use banking app phones connected to `WiFi` 
+   - get `usb-ethernet adapter` and `USB3 to USB-C adapter` for phone when connecting to banking apps
+   - `SMS` alerts are not enough for `2FA`, as you can see in the `Netflix series Mr. Robot`, GSM towers can be faked and one time codes can be intercepted
+   - in case OS system is rootkitted than cannot do anything substantially, all passwords stolen, can only request bank to disable online banking and phone apps and rely on bank office for transfers, which greatly delays everything
+      - greater problem is identity theft, which can enable hackers to do serious damage by impersonation of people
+
 # Usage
 - if scripts do not work install the required components and check the paths are set accordingly
 - see `Diagram 7` to get overview of how the scripts are getting used
