@@ -293,6 +293,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 - N - gas boiler readings `(RF ~ 5-6mW/m2)`
    - turned off completely, so what is powering this emissions ???
    - carbon dioxide sensor and auto-shutoff valve also not powered
+   - today `2025-05-26` turned off whole power grid inside home, but still got same `RF` readings inside the house
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
@@ -300,6 +301,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - Ideally will develop some driver for windows and driver for linux which instead of relying on usermode captures and logs.
 3. Getting newer raspberrypi or other mini computer, since the old versions are limited in power and RAM
 4. Based on dynamical observations, some RF is not constant, need to create some devices for snooping RF and taking recordings and GPS coordinates of the emissions, pin pointing devices that emmit just when activated from outside RF or from electrical grid
+5. Need to sepparate back whole grid, and figure out how to sepparate systems inside house, so that they do not cross-communicate through electrical grid
 
 # Not used for now - useful for future developments
 ## Configuring RaspAP
