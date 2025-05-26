@@ -252,6 +252,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 21. Some `power plugs` and some `light switches` emmit `RF` while others do not, despite being on the same circuit, in both buildings on the property. 
    - #Thanks electricians.
 
+22. Learned that `RF` can leak through conductors like power cable to outside of house. House is built with reinforced steel cage, acting like a blocker for `RF`.
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
@@ -262,7 +264,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
         __________  : |A   |     |      |_____  :
        |          | : |    |     |            | :
        |          | : |    |     |            | :
-       |          | D |CM_B|     |           N| :
+       |          | D |CM_B|     |     O     N| :
        |__________| 1            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
@@ -294,6 +296,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - turned off completely, so what is powering this emissions ???
    - carbon dioxide sensor and auto-shutoff valve also not powered
    - today `2025-05-26` turned off whole power grid inside home, but still got same `RF` readings inside the house
+   - confirmed CO2 detector was leaking `RF` through the disconnected power cable to outside to shut-off valve, connecting `N` and `J`
+- O - media box for TV set
+   - was and is disconnected for years, assuming its being used for hacking by ISP company, backdooring house
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
