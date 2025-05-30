@@ -13,6 +13,17 @@
    - recommend getting new phone, new sim card, new laptop
       - start the devices at different location that is not `RF` bombarded
       - disable `auto-updates` or on first connect getting malwared through `man in the middle` attacks
+   
+- Always turn off devices when not in use
+   - otherwise the devices get used by hackers
+   - remove batteries
+   - unplug power
+   - unplug ethernet and coaxial cables
+   - cannot unplug copper pipes, hence use PVC pipes instead
+
+- Generic advice
+   - turn master electrical power off, gas and water valves
+      - to avoid damage to property in case of leaks or induced short-circuits through microwaves
 
 # Usage
 - if scripts do not work install the required components and check the paths are set accordingly
