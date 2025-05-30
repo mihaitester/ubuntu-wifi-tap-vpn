@@ -9,6 +9,11 @@
    - in case OS system is rootkitted than cannot do anything substantially, all passwords stolen, can only request bank to disable online banking and phone apps and rely on bank office for transfers, which greatly delays everything
       - greater problem is identity theft, which can enable hackers to do serious damage by impersonation of people
 
+- Resetting phone and laptop is pointless
+   - recommend getting new phone, new sim card, new laptop
+      - start the devices at different location that is not `RF` bombarded
+      - disable `auto-updates` or on first connect getting malwared through `man in the middle` attacks
+
 # Usage
 - if scripts do not work install the required components and check the paths are set accordingly
 - see `Diagram 7` to get overview of how the scripts are getting used
