@@ -271,6 +271,11 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 22. Learned that `RF` can leak through conductors like power cable to outside of house. House is built with reinforced steel cage, acting like a blocker for `RF`.
 
 23. `2025-06-02 19:11 UTC+0` After having reconnected `HDD` to the laptop with sepparate non-OS NTFS partition, and I think my laptop is rootkitted, someone connects to it when I am not in the room and impersonates me, and they watch what I do constantly like a VM streaming. The laptop was running hot instead of cooling down, and when I opened the screen it was unlocked and the desktop looked like it was a dual screen, then it reset to the base screen.
+   - its more than the third time that this happens on windows
+   - this did not happen on Ubuntu booted from USB, with `SSD` and `HDD` removed
+      - on ubuntu I got hacked through wifi `auto reconnect` and spoofed wifi that stole my password
+      - on ubuntu I got hacked through `nautilus` crash when running through ethernet instead of wifi
+         - `ntfs-3g` corrupted `NTFS` partition on USB disk drive afterwards
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
