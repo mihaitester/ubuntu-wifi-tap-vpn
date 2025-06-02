@@ -272,6 +272,10 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 
 23. `2025-06-02 19:11 UTC+0` After having reconnected `HDD` to the laptop with sepparate non-OS NTFS partition, and I think my laptop is rootkitted, someone connects to it when I am not in the room and impersonates me, and they watch what I do constantly like a VM streaming. The laptop was running hot instead of cooling down, and when I opened the screen it was unlocked and the desktop looked like it was a dual screen, then it reset to the base screen.
    - its more than the third time that this happens on windows
+   - laptop was not connected to ethernet cable and `ISP modem` was unplugged
+      - I think this is proof enough that its neighbours using illegal military grade `RF` hacking
+         - if its not neighbours then drone has to be in proximity of my location, to penetrate walls reinforced with steel
+         - other alternative is getting hacked through `power plug`
    - this did not happen on Ubuntu booted from USB, with `SSD` and `HDD` removed
       - on ubuntu I got hacked through wifi `auto reconnect` and spoofed wifi that stole my password
       - on ubuntu I got hacked through `nautilus` crash when running through ethernet instead of wifi
