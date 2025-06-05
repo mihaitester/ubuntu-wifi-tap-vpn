@@ -281,6 +281,15 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
       - on ubuntu I got hacked through `nautilus` crash when running through ethernet instead of wifi
          - `ntfs-3g` corrupted `NTFS` partition on USB disk drive afterwards
 
+24. `2025-06-05 06-22 UTC+0` Lost internet connection after cars were driving on front and back streets, my laptop has `wifi` board removed.
+   - This means that `ISP modem` has some backdoor to enable others to connect, despite `2.4Ghz`, `5Ghz` and `Guest` wifi networks being turned off from the settings, and it not emitting `RF`. 
+   - Or internet provider reset connection.
+   - Or getting hacked through power plug and power cable.
+   - In theory I am connected to coaxial cable that is untapped till the street entrance, where it enters underground, and I have the sole cable connection from this ISP provider, so there should be no neighbours connected to same cable.
+
+25. `2025-06-05 19:11 UTC+0` After reinvestigating with `RF` meter found that in the attic the levels are `8-9mW/m2` and they are exactly in the area where I was keeping an double induction stove from Royalty Line. Makes me think neighbour is energizing the plate and using it as hacking antenna inside the property. This makes me think there are other appliances like the gas carbon dioxide meter or the upper plate of the gas boiler, which are energized and used as antennas inside the property.
+   - so at both `C` and `N` are emissions over `8mW/m2` inside the property
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
@@ -301,7 +310,8 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - despite it being pressure switch
 - B - TV and ISP modem `(RF ~ 0mW/m2)`
    - wifi turned off for both
-- C - wall inside house `(RF ~ 1-2mW/m2)`
+- C - wall inside house `(RF ~ 1-2mW/m2)` - brick wall
+   - wall in the attic `(RF ~ 8-9mW/m2)` - wood and drywall
 - D - neighbour fence `(RF ~ 4-5mW/m2)`
 - 1 - neghbour house `(RF ~ 5-6mW/m2)`
 - E - neighbour fence `(RF ~ 4-5mW/m2)`
