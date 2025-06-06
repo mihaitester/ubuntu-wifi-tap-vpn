@@ -8,13 +8,23 @@
    - 2010 - second card (18)
    - 2017 - third card (25)
       - this time I came in alone with pre-filled in documents as required
-      - notice the unexplained offset - not 4 years
+      - notice the unexplained offset - not 4 years or 10 years
 
 ## Keep paper copies of these, as the person office takes the previous card when submitting for new card
 - Companies that I previously worked for have multiple details not just home address, ID cards, passports, SIM cards phone numbers, email addresses
    - but with a spoofed wifi or hijacked ethernet and with spoofed GSM tower - people can literally disappear
 - Need to proove identity from childhood to present
    - including time before reaching 14 years old
+
+## Anti-theft of ID - use phones only when needed, the fewer the better
+   - never sell phones on second hand market
+      - be mindful when buying new phones where do they come from
+         - which countries they come from
+         - which countries you use them in
+   - never throw away phone SIM cards
+      - be mindful of which phone carriers you use and where
+   - never throw away HDDs or SSDs
+      - data can be recovered and stolen even if the disks are wiped
 
 ## Security recommendations based on observations
 - Disable `auto-updates` for laptop and phones, and `auto-connect` to WiFi as hackers use these 2 to enter systems, change apps, and then leave the system without leaving trace of their hacking. These are the only 2 measures that can delay or block some intrusions, however for `RF` hacking the only solution is to increase distance, or not leave systems turned on when not in use.
