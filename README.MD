@@ -318,6 +318,11 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - other thing there is an old sofa chair - remember to move it around to see if there is some device hidden in it, or bare metal antennas and circuits
    - so at both `C` and `N` are emissions over `8mW/m2` inside the property
 
+26. `2025-06-06 08:57 UTC+0` This morning realized that someone deleted something from the `HDD`, as there was `2.4Gb` left on Data partition yesterday before I went into town, but today found that there is `3.0Gb`. Its weird since I did not delete files, but added more files to the `HDD`. So free space should have decreased, not increased. So either someone deleted files that contained logs from my system, or there was some sort of hidden partition `clone OS` that was booting from this `HDD`. 
+   - need to create backups of whole disks periodically, for future analysis, however this is highly costly for individuals that just want to have a damn OS that is not backdoored or hacked by different people
+      - clearly different levels of hacking
+      - need to think about such hit-and-run tactics and how to interrupt attempts
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
