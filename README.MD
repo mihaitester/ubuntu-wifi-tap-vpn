@@ -1,4 +1,21 @@
 # Summary of research
+## Posibility of identity theft
+- When filling in forms with name, for example when filling in paperwork for ID card, people can steal name and have similar name, enabling them to pretend to be you
+   - ID cards start being released when reaching 14 years old with 4 years in between cards or 10 years between cards afterwards
+   - 1992 - born date
+   - 2006 - first card (14)
+      - people standing by could have snooped over the name and stolen the same name
+   - 2010 - second card (18)
+   - 2017 - third card (25)
+      - this time I came in alone with pre-filled in documents as required
+      - notice the unexplained offset - not 4 years
+
+## Keep paper copies of these, as the person office takes the previous card when submitting for new card
+- Companies that I previously worked for have multiple details not just home address, ID cards, passports, SIM cards phone numbers, email addresses
+   - but with a spoofed wifi or hijacked ethernet and with spoofed GSM tower - people can literally disappear
+- Need to proove identity from childhood to present
+   - including time before reaching 14 years old
+
 ## Security recommendations based on observations
 - Disable `auto-updates` for laptop and phones, and `auto-connect` to WiFi as hackers use these 2 to enter systems, change apps, and then leave the system without leaving trace of their hacking. These are the only 2 measures that can delay or block some intrusions, however for `RF` hacking the only solution is to increase distance, or not leave systems turned on when not in use.
    - always be mindful of the place where connecting to `WiFi` and updating apps, never do it from `mobile network` or from `wifi` from public places 
@@ -288,6 +305,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - In theory I am connected to coaxial cable that is untapped till the street entrance, where it enters underground, and I have the sole cable connection from this ISP provider, so there should be no neighbours connected to same cable.
 
 25. `2025-06-05 19:11 UTC+0` After reinvestigating with `RF` meter found that in the attic the levels are `8-9mW/m2` and they are exactly in the area where I was keeping an double induction stove from Royalty Line. Makes me think neighbour is energizing the plate and using it as hacking antenna inside the property. This makes me think there are other appliances like the gas carbon dioxide meter or the upper plate of the gas boiler, which are energized and used as antennas inside the property.
+   - other thing there is an old sofa chair - remember to move it around to see if there is some device hidden in it, or bare metal antennas and circuits
    - so at both `C` and `N` are emissions over `8mW/m2` inside the property
 
 # RF map - everything diagram
