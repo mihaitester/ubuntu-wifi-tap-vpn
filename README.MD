@@ -325,6 +325,7 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
       - I leave the laptop secured in `RF` bag, unplugged without battery, so the only way is for people to access the device and plug in the battery, or the power plug
          - whenever I go into the city, someone is accessing my laptop, inside my own home
          - mom says she is not allowing anyone, so they must be accessing while she is gardening outside
+      - it could have been leaving the ethernet cable in the laptop during boot time, even if only for 1 second, but that means that the raspberry pi is also hacked, or that the usb-ethernet adapter had custom firmware to remove the hidden partition during bootloading
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
