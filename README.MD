@@ -322,6 +322,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - need to create backups of whole disks periodically, for future analysis, however this is highly costly for individuals that just want to have a damn OS that is not backdoored or hacked by different people
       - clearly different levels of hacking
       - need to think about such hit-and-run tactics and how to interrupt attempts
+      - I leave the laptop secured in `RF` bag, unplugged without battery, so the only way is for people to access the device and plug in the battery, or the power plug
+         - whenever I go into the city, someone is accessing my laptop, inside my own home
+         - mom says she is not allowing anyone, so they must be accessing while she is gardening outside
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
