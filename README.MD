@@ -331,6 +331,16 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - Some keyboard keys are no longer working properly, like the `S` key. This persists even if `explorer.exe` is restarted, or the user is relogged in.
    - Today saw that some key combinations do not work properly. After restarting `explorer.exe` the problem disappeared. 
    - Another issue is that if the `C` and `D` partitions have less than `1Gb` free space left, windows keeps showing up alerts about freeing up space. And I think that this is actually delaying the hijacking, as without free space to create hidden partition from which to boot up rootkit, then the OS does not boot the `clone OS`.
+      - This makes me think of a possible solution for anti-rootkit OS, in the form of a VM which is limited to the size of the files and always requests larger disk size, whenever downloads or copying of files is happening, this way blocking hackers from installing changed files, or from creating hidden partitions in free space of partions.
+      - Another idea is to completely drop off regular windows processes, and create a forked windows, which runs custom build executables, and has extra security features enabled.
+         - kind of like firewall definitions for actions on the OS
+         - also thought of creating custom firewall solution, which is controlled outside of the OS
+            - so like a UAC popup for new actions, but the rules and enforcement are done on the associated mini-computer tap, and not on the client laptop
+      - another idea to clean up this bullshit, is to have custom USB disk, scanning all partitions and finding hidden partitions in free space and cleaning them
+         - checking the files, not just sumcheck, need to do actual 1-to-1 comparisons with pre-approved disk image
+            - will need to figure out how to make forensic tools which do not erase the evidence of these hacks
+               - had idea to use HDD only, and have read-only controllers installed for OS disk
+                  - however this slows down, as HDD runs `40-100 MB/s` while SSD can run from `100-500MB/s` or even faster
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
