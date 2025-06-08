@@ -327,6 +327,11 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
          - mom says she is not allowing anyone, so they must be accessing while she is gardening outside
       - it could have been leaving the ethernet cable in the laptop during boot time, even if only for 1 second, but that means that the raspberry pi is also hacked, or that the usb-ethernet adapter had custom firmware to remove the hidden partition during bootloading
 
+27. `2025-06-08` Observations for the past week:
+   - Some keyboard keys are no longer working properly, like the `S` key. This persists even if `explorer.exe` is restarted, or the user is relogged in.
+   - Today saw that some key combinations do not work properly. After restarting `explorer.exe` the problem disappeared. 
+   - Another issue is that if the `C` and `D` partitions have less than `1Gb` free space left, windows keeps showing up alerts about freeing up space. And I think that this is actually delaying the hijacking, as without free space to create hidden partition from which to boot up rootkit, then the OS does not boot the `clone OS`.
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
@@ -341,7 +346,11 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
        |__________| 1            |___K________| :
                     :           F      J      E :
       --------------:-------[---]---------------:
-                              H
+                              H     .
+                                       .
+                                          .
+                                             .
+                                               [~ 200m - 3 GSM antennas]
 
 - A - water pump `(RF ~ 0.5mW/m2)`
    - despite it being pressure switch
