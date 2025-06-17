@@ -342,6 +342,10 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
                - had idea to use HDD only, and have read-only controllers installed for OS disk
                   - however this slows down, as HDD runs `40-100 MB/s` while SSD can run from `100-500MB/s` or even faster
 
+18. `2025-06-17 ~ 08:09 UTC+0` - somehow my window C partition got `5Gb` removed from it, while I was browsing `twitch.tv` and `youtube.com`. Does not make any sense, how can windows self remove files without people knowing?
+   - so either windows is deleting files on personal computers on purpose - which is major breach of trust and IP theft
+   - or rootkit driver is deleting hidden partitions on disk, hidding in free space between files
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
