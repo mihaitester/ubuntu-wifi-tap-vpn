@@ -352,6 +352,9 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
 30. `2025-06-19` - logged in as admin on `windows` and observed all the firewall rules were scrambled, somehow all the rules that I disabled and the blocked firewall all returned to defaults which exposes the OS to more backdoors. Then as I was disabling rules, storage sense got automatically activated. 
    Based on all my observations I am `100%` sure I am not running `windows` or `ubuntu`, but some `bullshit cloned VM OS`. Its like running a VM in cloud with defects in apps, and all that without actually being connected to the internet.
       - only thing connected is `power plug`
+      - re-editing firewall to block app, results in `git.exe` not being able to push code to remote server, despite it being allowed
+         - in short `git.exe` needs outgoing firewall disabled to push code to `github.com`
+         - `firefox.exe` and `chrome.exe` work, with rule added, but they need all ports enabled in firewall
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
