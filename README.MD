@@ -347,6 +347,12 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - so either windows is deleting files on personal computers on purpose - which is major breach of trust and IP theft
    - or rootkit driver is deleting hidden partitions on disk, hidding in free space between files
 
+29. `2025-06-19 ~ 03:58 UTC+0` - ran command `sudo ./bridge.sh` on `ubuntu` and got output of `dir` command, then run command again and got actual output. This makes me think everything I am running is virtualized, `ubuntu` and `windows` - basically I am not in control of my own devices.
+
+30. `2025-06-19` - logged in as admin on `windows` and observed all the firewall rules were scrambled, somehow all the rules that I disabled and the blocked firewall all returned to defaults which exposes the OS to more backdoors. Then as I was disabling rules, storage sense got automatically activated. 
+   Based on all my observations I am `100%` sure I am not running `windows` or `ubuntu`, but some `bullshit cloned VM OS`. Its like running a VM in cloud with defects in apps, and all that without actually being connected to the internet.
+      - only thing connected is `power plug`
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
