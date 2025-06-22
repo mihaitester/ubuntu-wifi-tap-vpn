@@ -356,6 +356,29 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
          - in short `git.exe` needs outgoing firewall disabled to push code to `github.com`
          - `firefox.exe` and `chrome.exe` work, with rule added, but they need all ports enabled in firewall
 
+31. `2026-06-22 ~ 08-00 to 08-29 UTC+0`
+   - mom goes outside house, supposedly watering plants
+   - while watching `youtube.com` on `chrome.exe` getting multiple ads triggered on video, 2 or 4
+   - then `updater.exe` spawns and changes files on disk
+   - cars drive by my front street and I get lagged internet conectivity
+      - if I stop `explorer.exe` process then laggy streams is not happening
+         - if I do not stop the process, I get low disk space notifications, even if laptop is not connected to ethernet
+            - so either they hack the power cable, or the CPU
+      - if I disconnect internet cable, again laggy streams are not happening
+         - if cars are doing `RF` hacking it means they are targetting the `ISP modem`, since my laptop has no WIFI board plugged in
+         - the hardline connection should be coaxial land line, which ends up plugged into underground main, at the start of the street, so `RF` hacking should not work
+   - mom tries to give me food when some of the hacks are happening - like a distraction from my PC
+         - all these makes me think the hackers are `local` and not `remote`, in close proximity of my location
+         - they are using multiple processes on my PC to communicate something between processes
+            - would require some VM to actually log file changes and process IPC or shared memory transfers
+
+   - so far this is what I see:
+      - stealing my files from HDD and SSD
+      - impersonating me
+      - illegally using my resources, PC, power, network connection
+      - only solution is to literally not use the laptop
+         - I have retried factory reset and clean reinstallation of windows multiple times, but I still get hacked back afterwards
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
