@@ -379,6 +379,14 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
       - only solution is to literally not use the laptop
          - I have retried factory reset and clean reinstallation of windows multiple times, but I still get hacked back afterwards
 
+32. `2025-06-22 08:45 UTC+0`
+   - in order to figure out why `git.exe` does not push commits if allowed through firewall, but if firewall is off it works fine
+   - logged into admin account and started `procmon.exe`
+   - locked out, and logged into user account
+      - while logging in, background screen changed, and the logging in took over 1 minute
+      - this makes me think of hijacking of admin account, when logging into user account
+      
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
