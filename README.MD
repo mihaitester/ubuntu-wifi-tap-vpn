@@ -1,4 +1,14 @@
 # Summary of research
+Based on my current research on my identity theft and assuming rootkitted devices, if we do not meet in person its not me who you are meeting.
+- I live in Romania, Bistrita-Nasaud, Bistrita, Strada Poienii nr.10. 
+- If you get phone calls from me or weird emails requesting money or personal details then its not me. 
+- If you meet me at any other location, then its not me.
+- I am using landline internet connection, but if you check my github you will see more details.
+- If you can get me an IT job, then help me escape this panopticon.
+- I had an Apple account with my email, which I lost access to in Dubai in 2020, hence its not me.
+- My current OS windows 10 is rootkitted, some else sees what I am doing on my laptop, its like a fake VM with lots of weird bugs in the GUI.
+I am 100% sure Romanian Secret Services are involved in my identity theft.
+
 ## Posibility of identity theft
 - When filling in forms with name, for example when filling in paperwork for ID card, people can steal name and have similar name, enabling them to pretend to be you
    - ID cards start being released when reaching 14 years old with 4 years in between cards or 10 years between cards afterwards
@@ -385,7 +395,12 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    - locked out, and logged into user account
       - while logging in, background screen changed, and the logging in took over 1 minute
       - this makes me think of hijacking of admin account, when logging into user account
-      
+
+33. `2025-07-04 07:26 UTC+0`
+   - between `06:00 and 07:00 UTC+0` I was in different house painting cracks, when I came back my mobile phones were not in the same position I left them
+      - mom supposedly came back to grab detergent, but I think she allows other people physical access to my devices
+      - makes me think people are cloning my SIM cards, my phone IMEI identifiers or literally swapping my devices with rootkitted ones
+         - or they are making phone calls pretending to be me, while I am nearby
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
