@@ -197,6 +197,12 @@ After getting hacked multiple times, through various means, decided to create a 
          .                                                                                              .
         [2]                                                                                            [3]
 
+# Diagram 8 - planted device wall
+
+# Diagram 9 - planted device power adapter
+
+# Diagram 10 - TV and ISP modem hacked
+
 # Requirements
 1. 1 X mini computer / raspberry pi
 2. 1 X sdcard 32GB [ write ubuntu ISO ]
@@ -401,6 +407,27 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
       - mom supposedly came back to grab detergent, but I think she allows other people physical access to my devices
       - makes me think people are cloning my SIM cards, my phone IMEI identifiers or literally swapping my devices with rootkitted ones
          - or they are making phone calls pretending to be me, while I am nearby
+
+34. `2025-07-15 16:55 UTC+0`
+   - I went to bathroom, unplugged laptop from ethernet and stopped power to ISP modem around `19:00 UTC+3`
+   - came back around `19:30 UTC+3` and mom reported BOLT car in front of house
+      - as I turned on ISP modem and reconnected ethernet cable to my laptop, my internet connection was reset and my `amazon.com` got `logged out`
+   - HDD started spinning inside my laptop without me opening the disk drive associated in `explorer.exe`
+   - mom came inside house and turned on TV
+   - `time slipped` and when I looked at my watch it was `19:50 UTC+3` for a chit-chat with mom about green vegetables she picked up, which in my mind took `5m` not `20m`
+   - I unplugged ethernet, and stopped both TV and ISP modem, then turned back on only ISP modem
+      - I rechecked my `amazon.com` account and what a surprise, I was `NOT logged out`
+   - HDD started spinning inside my laptop without me opening the disk drive associated in `explorer.exe`
+
+   => makes me think of one neighbour hacking my laptop through `HDD backdoor`, with some `Magnetic Field emitting device`
+   => makes me think BOLT driver hijacking my `ISP modem` through `Radio Field hacking` - despite WIFI turned off on modem, somehow they hijack the device
+      -> so at least 2 hackers in my proximity using illegal hijacking devices to hijack both my laptop and my ISP modem
+         -> suspecting a 3rd hacker using `TV backdoors`
+               
+               => this is way beyond my software skills
+               => this is not SCI-FI, those people and others have been hacking me for months if not years
+
+
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
