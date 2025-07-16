@@ -423,11 +423,42 @@ Using the scripts provided `[ /scripts/windows ]` helps, but greatly limits `exp
    => makes me think BOLT driver hijacking my `ISP modem` through `Radio Field hacking` - despite WIFI turned off on modem, somehow they hijack the device
       -> so at least 2 hackers in my proximity using illegal hijacking devices to hijack both my laptop and my ISP modem
          -> suspecting a 3rd hacker using `TV backdoors`
-               
                => this is way beyond my software skills
                => this is not SCI-FI, those people and others have been hacking me for months if not years
 
+35. `2025-07-16 06:23 UTC+0`
+   - I turned off TV, then off and on my ISP modem
+   - then weird cars drive by and my HDD starts spinning
+   - this happens even if `explorer.exe` is stopped
+      - need to confirm it happens even if my laptop is disconnected from ethernet cable
 
+36. `2025-07-16 09:13 UTC+0`
+   - terminated `explorer.exe` process because it keeps showing `running out of disk space` or `update virus protection` notifications
+   - unplugged ethernet cable
+   - restarted `explorer.exe` process through task manager, and got 2 running processes
+```
+tasklist /fi "imagename eq explorer.exe"
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+explorer.exe                  7244 Console                    1    270,740 K
+explorer.exe                  4588 Console                    1    462,648 K
+```
+   -> all this makes me think I am getting hacked at different layers
+      - electrical cable and internet level
+      - hardware level - all devices
+      - driver level
+      - process level
+      - browser cookies level
+
+37. `2025-07-16 10:48 UTC+0`
+   - signed out of user account
+   - unplugged power cord
+   - rebooted OS
+   - `chrome.exe` cookies got wiped
+      - does not make sense unless `chrome.exe` was still running after signing out
+      - or windows kernel did not make the changes to disk
+   - before when I did this cookies were not affected
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
