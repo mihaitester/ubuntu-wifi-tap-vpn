@@ -460,9 +460,22 @@ explorer.exe                  4588 Console                    1    462,648 K
       - or windows kernel did not make the changes to disk
    - before when I did this cookies were not affected
 
+38. `2025-07-16 15:58 UTC+0`
+   - mom came and turned on TV
+   - got `ERR_NETWORK_CHANGED` in `chrome.exe`
+
+39. `2025-07-18 ~ 07:00 - 07:15 UTC+3`
+   - saw a black jacket in the courtyard around the `L` point in `RF Map`, went outside and heard movement around `P` location over the fence
+   - heard last year, 2024 someone footstepping and jumping fence around `E` point on `RF Map`, then saw a dark haired, hair length to neckline, guy with long black jacket,  walking down street around `H` point, while I was petting the cat around `F`
+   - saw multiple times shadow on wall inside small house while sitting at `C`
+      - all this makes me think someone else pretending to be me around my house
+      - I recently had a hair cut, I used to have hair tail below neck level
+      - there is a black doorbell on the fence around `H`, ring the bell to alert me inside house if you think you saw me
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
+                  P :
                     :---------------------------:
                     :  ____                  __ :
                     : |____|  L   ______    |  |:
