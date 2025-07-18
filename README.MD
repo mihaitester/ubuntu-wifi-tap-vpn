@@ -467,10 +467,14 @@ explorer.exe                  4588 Console                    1    462,648 K
 39. `2025-07-18 ~ 07:00 - 07:15 UTC+3`
    - saw a black jacket in the courtyard around the `L` point in `RF Map`, went outside and heard movement around `P` location over the fence
    - heard last year, 2024 someone footstepping and jumping fence around `E` point on `RF Map`, then saw a dark haired, hair length to neckline, guy with long black jacket,  walking down street around `H` point, while I was petting the cat around `F`
+      - this guy is shorter than me, I am almost `1.8m` or `6ft`, this guy is `1.7m` or `5ft 7in`
+      - the guy does not wear glasses, I have prescription miopia glasses
    - saw multiple times shadow on wall inside small house while sitting at `C`
       - all this makes me think someone else pretending to be me around my house
       - I recently had a hair cut, I used to have hair tail below neck level
       - there is a black doorbell on the fence around `H`, ring the bell to alert me inside house if you think you saw me
+
+      - so I have multiple physical and digital clones
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
