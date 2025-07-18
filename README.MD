@@ -124,15 +124,15 @@ After getting hacked multiple times, through various means, decided to create a 
 
 # Diagram 3
 
-    Client laptop                  ISP Modem / Router
-     ________                              __
-    |        |                            |  |
-    |________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
-    /________/                            |__|
-         .                                  .
-         .                                  .
-         .                                  .
-        [2]                                [3]
+    Client laptop                                ISP Modem / Router
+     ________                                          __
+    |        |                                        |  |
+    |________|---[usb-eth]=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
+    /________/                                        |__|
+         .                                             .
+         .                                             .
+         .                                             .
+        [2]                                           [3]
 
 # Diagram 4
                                               [5]
@@ -475,6 +475,13 @@ explorer.exe                  4588 Console                    1    462,648 K
       - there is a black doorbell on the fence around `H`, ring the bell to alert me inside house if you think you saw me
 
       - so I have multiple physical and digital clones
+
+40. `2025-07-18 09:00 UTC+0`
+   - I removed ethernet cable
+   - started `explorer.exe` process
+   - created new folder and as I was typing folder name, I removed the ethernet to USB adapter, and the `explorer.exe` interrupted the folder name typing, makes me think of USB tap pretending to be keyboard that steals my keystrokes hidden in ethernet adapter
+      - see `Diagram 3`
+      - makes me think switching from `wifi` to `ethernet` this year, did nothing but change the hacker groups that access my laptop
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
