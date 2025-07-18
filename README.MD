@@ -538,6 +538,17 @@ explorer.exe                  4588 Console                    1    462,648 K
       - see `Diagram 3`
       - makes me think switching from `wifi` to `ethernet` this year, did nothing but change the hacker groups that access my laptop
 
+41. `2025-07-18 13:29 UTC+0`
+   - I terminated `explorer.exe` process
+   - car drives by on the street
+   - `HDD` starts spinning without me accessing disk drive
+      - again makes me think neighbour using `Magnetic Field emitting device` to hijack laptop through HDD
+   - if the `USB-ethernet adapter` is connected then `explorer.exe` does weird stuff, even if ethernet cable is disconnected
+      - this makes me think of multiple backdoor exploits that need 2 or more pre-conditions to work
+            - `explorer.exe` - application layer
+            - `USB-ethernet adapter` - kernel layer, adds driver in the driver stack, intercepting hardware interrupts, which could access other devices messages
+               - again this goes with the rootkitted OS theory
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
