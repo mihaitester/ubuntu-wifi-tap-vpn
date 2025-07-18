@@ -87,6 +87,9 @@ After getting hacked multiple times, through various means, decided to create a 
 5. Adding `VPN layer` so that all packets leaving through ISP are encrypted. However this will require another computer to be set up as VPN server.
    - see `Diagram 2`
 6. Trying to detect `hijacking` of laptop through `RF emissions`, as observed, basically devices passing by connecting to a laptop without being paired or approved. From observation, CPU or RAM memory seems to be susceptible to such manipulations, or there are other on board devices which can receive foreign signals and activate backdoors.
+7. As far as I know, there is no protection from electrical current variation, or from power-adapter that may have replaced components. I think this can also be used to hijack device. 
+   - `USB to ethernet adapter` or `power plug adapter` can get fuzzed signals that if not cleaned can cause devices to be hijacked.
+   - all device accessories can contain hidden `WIFI` that can enable remote access
 
 * Using windows commands such as `netstat` and `tasklist`, to be able to backtrack which processes were holding open which connections and ports. Ideally this would be done instead using some windows driver written in C as that would be more reliable.
 
@@ -128,10 +131,10 @@ After getting hacked multiple times, through various means, decided to create a 
      ________                                          __
     |        |                                        |  |
     |________|---[usb-eth]=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
-    /________/                                        |__|
-         .                                             .
-         .                                             .
-         .                                             .
+    /________/      .                                 |__|
+         .          .                                  .
+         .          .                                  .
+         .         [7]                                 .
         [2]                                           [3]
 
 # Diagram 4
@@ -191,17 +194,59 @@ After getting hacked multiple times, through various means, decided to create a 
      ________                         .                     Mini computer tap          .               __
     |        |                        .                          ________              .              |  |
     |________|--[usb-eth]=====[   ETH cable   ]======[usb-eth]--|________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
-    /________/                                                                                        |__|
-         .                                                                                              .
-         .                                                                                              .
-         .                                                                                              .
+    /________/      .                                   .                                             |__|
+         .          .                                   .                                               .
+         .          .                                   .                                               .
+         .         [7]                                 [7]                                              .
         [2]                                                                                            [3]
 
-# Diagram 8 - planted device wall
+# Diagram 8 - planted device wall - wall socket - light switch - light bulb - electrical wall dose - electrical safety switch - modified power strip
+                                                            ( can literally be anything connected to electrical wire )
+                                                                                        [7]
+    Client laptop                                                                        .
+     ________                                                                            .
+    |        |                                                                           .
+    |________|----[power-adapter 19V DC]=====[electrical-socket 220V AC]=====[hidden tapping device]
+    /________/
 
 # Diagram 9 - planted device power adapter
 
-# Diagram 10 - TV and ISP modem hacked
+    ( can be replaced with similar looking device - or can have hidden wifi attached )
+                          [7]
+    Client laptop          .
+     ________              .
+    |        |             .
+    |________|----[power-adapter 19V DC]=====[electrical-socket 220V AC]
+    /________/
+         .
+         .
+         .
+        [2]
+
+# Diagram 10 - TV and ISP modem hacked - coaxial cable frequency change or frequency tapping
+   
+    (got network changed error in browser after turning on TV)
+    (turned both WIFI off - getting 0 RF)
+             TV
+     __________________
+    |                  |
+    |                  |
+    |                  |
+    |__________________|======[   Coaxial cable   ]=======\\
+      /\            /\                                     \\
+                                                            \\
+                                                             \\
+                                                         [Splitter]=======[   Coaxial landline   ]==========
+                  ISP Modem                                  //
+                     __                                     //
+                    |  |                                   //
+                    |  |======[   Coaxial cable   ]=======//
+                    |__|
+                     .
+                     .
+                     .
+                    [3]
+
 
 # Requirements
 1. 1 X mini computer / raspberry pi
