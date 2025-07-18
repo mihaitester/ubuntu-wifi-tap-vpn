@@ -1,13 +1,16 @@
 # Summary of research
 Based on my current research on my identity theft and assuming rootkitted devices, if we do not meet in person its not me who you are meeting.
-- I live in Romania, Bistrita-Nasaud, Bistrita, Strada Poienii nr.10. 
+- I live in `Romania, Bistrita-Nasaud, Bistrita, Strada Poienii nr.10.`
 - If you get phone calls from me or weird emails requesting money or personal details then its not me. 
 - If you meet me at any other location, then its not me.
 - I am using landline internet connection, but if you check my github you will see more details.
 - If you can get me an IT job, then help me escape this panopticon.
 - I had an Apple account with my email, which I lost access to in Dubai in 2020, hence its not me.
 - My current OS windows 10 is rootkitted, some else sees what I am doing on my laptop, its like a fake VM with lots of weird bugs in the GUI.
-I am 100% sure Romanian Secret Services are involved in my identity theft.
+- I am 100% sure Romanian Secret Services are involved in my identity theft.
+   - I am 100% sure I have more than 1 clone pretending to be me, maybe there are more actors involved
+      - 1 similar physical appearance
+      - 1 digital footprint and hijacking
 
 ## Posibility of identity theft
 - When filling in forms with name, for example when filling in paperwork for ID card, people can steal name and have similar name, enabling them to pretend to be you
@@ -61,6 +64,13 @@ I am 100% sure Romanian Secret Services are involved in my identity theft.
 - Generic advice
    - turn master electrical power off, gas and water valves
       - to avoid damage to property in case of leaks or induced short-circuits through microwaves
+
+- Having different provider for different services can help avoid some backdoors that work with different devices, but increases privacy exposure to multiple operators and increases costs
+   - TV 
+   - internet
+   - mobile
+      - ideally turn off all devices when not in use
+      - ideally use only a device at a time, removing possibility for cross-service backdoor communications
 
 # Usage
 - if scripts do not work install the required components and check the paths are set accordingly
