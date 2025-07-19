@@ -549,6 +549,15 @@ explorer.exe                  4588 Console                    1    462,648 K
             - `USB-ethernet adapter` - kernel layer, adds driver in the driver stack, intercepting hardware interrupts, which could access other devices messages
                - again this goes with the rootkitted OS theory
 
+42. `2025-07-19 ~ 20-21 UTC+3`
+   - yesterday late evening saw a guy driving ATV in front of my house with similar haircut to me
+   - I do not drive ATV
+
+43. `2025-07-19 09:44 UTC+0`
+   - time slipped between `12:20 - 12:40 UTC+3`
+   - bad headache
+   - mom left outside for like 1 minute, pretends nothing happened
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
