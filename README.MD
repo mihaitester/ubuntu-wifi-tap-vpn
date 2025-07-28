@@ -558,6 +558,13 @@ explorer.exe                  4588 Console                    1    462,648 K
    - bad headache
    - mom left outside for like 1 minute, pretends nothing happened
 
+44. `2025-07-28 14:38 UTC+0`
+   - this morning mom woke up ahead of me and was sitting in chair beside her bed - she never does this
+   - makes me think she is accomplice in allowing physical access to my devices
+   - makes me think she is accomplice in allowing access to my clothes, while I am away in town or working on the laptop and not being in line of sight of shoes and t-shirts
+      - need to figure out how to actually communicate in case of this level of impersonation
+      - tattoos and scars that only trusted people know are not enough
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
