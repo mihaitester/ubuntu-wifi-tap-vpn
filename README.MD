@@ -606,6 +606,9 @@ explorer.exe                  4588 Console                    1    462,648 K
    - another hijacking entry point for hackers
    - I think mom and neighbours swapped this device, enabling neighbours access to phone calling from my location
       - see `Diagram 11`
+   - mom is very annoyed if I stop this device from the power plug
+      - clearly she knows something I don't about why we should leave this device turned on
+   - also the mobile phone itself can be used to spy on me inside my house, microphone and fake base call to the phone receiver
 
 47. another hidden device could be a `voltage regulator` that electrician guy installed behind one of the wall power plugs
    - I think this is how they hack my device
