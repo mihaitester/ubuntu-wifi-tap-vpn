@@ -257,6 +257,34 @@ After getting hacked multiple times, through various means, decided to create a 
                      .
                     [3]
 
+# Diagram 11 - landline phone with WIFI - enabling neighbour hacker to hijack modem through TELNET
+                                             [3]
+                                              .
+                                              .
+                                              .
+     Client laptop                       ISP Modem
+       ________                              __
+      |        |                            |  |
+      |________|=====[   ETH cable   ]======|  |======[   Coaxial landline   ]===
+      /________/                            |__|
+            .                                |
+            .                                |
+            .                     [telephone cable 6-pin]
+           [2]                               |
+                           ___              _|_
+                          |[ ]|            |   |   WIFI phone charging base
+              WIFI phone  |###|---[WIFI]---|___|
+                          |###|              |
+                          |###|             (RF)
+                                         ____|____
+                                        |         |
+                                        |_________|
+                                         \_________\
+                                         Hijacking Hacker
+                                                .
+                                                .
+                                                .
+                                               [6]
 
 # Requirements
 1. 1 X mini computer / raspberry pi
@@ -564,6 +592,25 @@ explorer.exe                  4588 Console                    1    462,648 K
    - makes me think she is accomplice in allowing access to my clothes, while I am away in town or working on the laptop and not being in line of sight of shoes and t-shirts
       - need to figure out how to actually communicate in case of this level of impersonation
       - tattoos and scars that only trusted people know are not enough
+
+45. `2025-08-02 14:30-14-39 UTC+0`
+   - unplugged laptop ethernet
+   - went outside 
+   - time slipped - walking out and back inside house does not take `9m`, but `2m` at most
+   - came back inside house and saw mom got out of bed and rushed to hide something
+   - came back to laptop and the SSD has `700MB` removed from it despite being plugged only into power plug
+   - makes me think my mom and my neighbours are somehow hot swapping the laptop while I am away from it with another similar laptop
+      - or they have some hijacking device that works in proximity
+
+46. this week reconnected the mobile base for the phone
+   - another hijacking entry point for hackers
+   - I think mom and neighbours swapped this device, enabling neighbours access to phone calling from my location
+      - see `Diagram 11`
+
+47. another hidden device could be a `voltage regulator` that electrician guy installed behind one of the wall power plugs
+   - I think this is how they hack my device
+   - then other hackers are hacking me through different means listed above
+   - and also to mention the rootkitted device running OS with abnormal features and capabilities
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
