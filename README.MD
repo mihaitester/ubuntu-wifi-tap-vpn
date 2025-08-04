@@ -615,6 +615,24 @@ explorer.exe                  4588 Console                    1    462,648 K
    - then other hackers are hacking me through different means listed above
    - and also to mention the rootkitted device running OS with abnormal features and capabilities
 
+48. `2025-08-04` between `15:30` and `16:30` started hearing double connect/disconnect sound
+   - tried terminating and restarting `explorer.exe` process
+   - after turning off the `ISP modem` and `phone base` the problem disappeared
+      => so hacker drives by my house in car
+      => hacks the `ISP modem` through some backdoors
+      => connects to my laptop and hijacks it
+         => if I manage to see this is happening, and turn off `ISP modem`, they immediately run off
+            -> this is just one group of the hackers - observed multiple cars with such behaviour
+               - some are only doing drive by
+               - others are literally parking in front of my house in the 50m range around my gate
+               - there are also 2 other static cars that are conveniently parked for 2 years in front of my house
+            -> different groups use different ways to hijack my device
+
+   => even if my laptop is a diplomatic cable, you shouldn't have used mes
+      -> I think its hackers selling drugs and prostitution
+         -> based on technical level, state sponsored
+            -> only way is to literally turn off everything again for 1 month or more
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
