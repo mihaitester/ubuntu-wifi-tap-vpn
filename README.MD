@@ -633,6 +633,40 @@ explorer.exe                  4588 Console                    1    462,648 K
          -> based on technical level, state sponsored
             -> only way is to literally turn off everything again for 1 month or more
 
+49. `2025-08-17` between `00:00` and `00:10`
+   - between `C point` and `B point`
+   - heard annoying tinitus like sound, despite TV being disconnected from electrical socket
+   - disconnected coaxial cable and the hiss or tinitus like sound went away
+      -> recommend both disconnecting electrical and coaxial cable from both `TV` and `ISP modem` when not in use
+
+50. `2025-08-18` between `11:45` and `12:15` `UTC+3`
+   - observed `20mm magnetic compass` moving left and right over water pipe adapter made of steel from 1 inch pipe to 1/2 copper pipe over `A point`, device is the size of a car bolt socket like 1 inch thick, and 2 inch long or `25mmX50mm`
+   - despite nearby `water pump` being disconnected from the electrical socket
+   - mom opens tap, and the adapter produces emissions
+      -> makes me think of retransmitting nearby signals from `EF` to `MF` or viceversa converting nearby `MF` signal made by car subwoofer driving by into `EF`
+      -> timing is critical, basically I tried filming it afterwards, but the compass was not moving `+- 5 to 10 degrees` but more like `+- 1 to 2 degrees` while I was trying to film it
+      -> bathroom is `20m` away from main street and over `50m` from back street, so if they are trying to contact they need large emission cone that could be picked up by drone or other power cables
+         -> I think it has to be one or both of neighbours which are under `5m` from this device
+         -> since I disconnected `HDD` on my laptop and the `battery` also, I get less interference when cars are driving by, but if ethernet is connected I do get something laggy in the laptop
+
+51. I connect both `TV` and `ISP modem` to the `coaxial cable` and `power cable`
+   - then I connect phone through the same `usb-ethernet` adapter as the laptop
+      - I get weird connect-disconnect for multiple minutes, before the smartphone finally works
+      -> either the phone is rootkitted and hidding network connection
+      -> or someone `hijacked` my coaxial cable outside my property, in between me and the `ISP provider` and they are choosing which devices connect
+         -> or both
+      - after `5m` or when I turn off the `TV` the internet suddenly works on my phone as well
+         -> repeated this multiple times
+
+      - this makes me think hackers not only steal banking credentials or payment tokens from `WIFI` but from `coaxial connection` as well by hijacking `TV`
+         -> I had multiple times experience of doing online payments through `3d-secure` which means getting one time token, but then the transaction got cancelled, I had to redo payment, but got double spend ithout it showing in banking app
+            1. doing `$500` payment online on `amazon.com`
+            2. 1st payment through `3d-secure` gets cancelled
+            3. redoing `$500` payment online on `amazon.com`
+            4. 2nd payment goes through, and shows on bank statement
+            5. but then from the bank account are missing `$1000`, without any extra transactions showing up
+               -> makes me think the phone app got cloned `revolut`, maybe installed hijacked version doing update over `WIFI`
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
