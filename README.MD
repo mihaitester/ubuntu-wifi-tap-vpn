@@ -703,29 +703,39 @@ explorer.exe                  4588 Console                    1    462,648 K
       - George Orwell could not fucking imagine the amount of levels and layers of spying
       - this warrants FBI or CIA counter spying operations
 
+54. around `2025-09-02 22:50 UTC+3`
+   - `firefox.exe` shows pop up that I am signed out, so I go out
+   - weird people show up around `T` point, pretending to be smoking
+   - make me think of IR remote control, or laser hijacking TV or tranmitting through TV
+   - mom conveniently left the `Wifi landline` turned on after talking to grandma, which is another potential entry point
+      - see `Diagram 10` and `Diagram 11`
+      - mom mentioned once about applying privacy film from bathroom to the front window also
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
-                  P :
-                    :---------------------------:
-                    :  ____                  __ :
-                    : |____|  L   ______    |  |:
-      --------------:  __G_      |      |   |__|:
-        __________  : |A   |     |      |_____  :
-       |          | : |    |     |            | :
-       |          | : |    |     |            | :
-       |          | D |CM_B|     |     O     N| :
-       |__________| 1            |___K________| :
-                    :           F      J      E :
-      --------------:-------[---]---------------:---------
-                              H     .
-                                       .
-      ------------------------------------.---------------
-                    Q                        .   R
-                                               .
-                              S                  [~ 200m - 3 GSM antennas]
-
-      ----------------------------------------------------                                          
+      :          |         | P:
+      :          |         |  :---------------------------:
+      :           ---------   :  ____                  __ :
+      :                       : |____|  L   ______    |  |:
+      :-----------------------:  __G_      |      |   |__|:
+      :           __________  : |A   |     |      |_____  :
+      :          |          | : |    |     |            | :
+      :          |          | : |    |     |            | :
+      :          |          | D |CM_B|     |     O     N| :
+      :          |__________| 1   .        |___K________| :
+      :                       :.         F      J      E  :
+------:--------------------.--:-------[---]---------------:-----------------
+                        .               H   .
+                     .                          .
+------------------.---------------------------------.------------------------
+               .              Q                        .   R
+            .                                            .
+         .                               S                  [~ 200m - 3 GSM antennas]
+ -----.---------
+|  .            |
+----------------------------------------------------------------------------
+T
 
 - A - water pump `(RF ~ 0.5mW/m2)`
    - despite it being pressure switch
@@ -760,6 +770,7 @@ explorer.exe                  4588 Console                    1    462,648 K
 - P - heard weird noise, when saw weird black jacket moving throug my property - someone jumps fences
 - Q - magical car blue, before there was 1 yellow van for a year
 - R - neighbour car van, conveniently placed
+- T - loading ramp for train depot
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
