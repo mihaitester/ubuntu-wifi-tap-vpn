@@ -706,10 +706,12 @@ explorer.exe                  4588 Console                    1    462,648 K
 54. around `2025-09-02 22:50 UTC+3`
    - `firefox.exe` shows pop up that I am signed out, so I go out
    - weird people show up around `T` point, pretending to be smoking
-   - make me think of IR remote control, or laser hijacking TV or tranmitting through TV
+   - make me think of IR remote control, or IR laser hijacking TV or transmitting through TV
    - mom conveniently left the `Wifi landline` turned on after talking to grandma, which is another potential entry point
       - see `Diagram 10` and `Diagram 11`
-      - mom mentioned once about applying privacy film from bathroom to the front window also
+      - mom mentioned once about applying privacy film from bathroom to the front window also, hence IR through window scenario more credible
+         - also this would explain why sometimes I get a bright spot in my left field of view, moving from right to left, the IR laser mirrors from something and hits me in my eye
+         - this usually happens during the day, when cars drive by on the road
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
