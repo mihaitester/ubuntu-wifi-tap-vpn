@@ -688,6 +688,21 @@ explorer.exe                  4588 Console                    1    462,648 K
    - always unplug everything before logging out
       - problem is the power cord is still connected, and it can be hijacked also, or used to hijack device
 
+53. around `2025-09-02 15-30 UTC+3`
+   - neigbour opens window and does something over my rain gutter at `D` point on RF map
+   - weird truck speeds over in front of house at `S` point
+   - mom gets weird phone calls from 2 unknown numbers 
+   - then my brother calls and asks mom for money around `15:40`
+   - then the permissions of the messaging app on my moms phone get changed, and `Camera` and `Microphone` pop-up in `App settings`
+      - permissions that I disabled from `Default messaging app`
+      - I installed another app from Ethernet for reading messages which has only `SMS`, `Contacts` and `Storage` permissions
+         - do not allow `Telephone` permission so that app does not make calls
+   - I think my moms phone is actually running some clone of `Android` which hides permissions like for example `Display over other apps` feature which is disabled
+
+   => this goes to say `#THANKS DOD`
+      - George Orwell could not fucking imagine the amount of levels and layers of spying
+      - this warrants FBI or CIA counter spying operations
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
@@ -708,7 +723,9 @@ explorer.exe                  4588 Console                    1    462,648 K
       ------------------------------------.---------------
                     Q                        .   R
                                                .
-                                                 [~ 200m - 3 GSM antennas]
+                              S                  [~ 200m - 3 GSM antennas]
+
+      ----------------------------------------------------                                          
 
 - A - water pump `(RF ~ 0.5mW/m2)`
    - despite it being pressure switch
