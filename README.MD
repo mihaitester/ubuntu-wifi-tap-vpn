@@ -713,6 +713,28 @@ explorer.exe                  4588 Console                    1    462,648 K
          - also this would explain why sometimes I get a bright spot in my left field of view, moving from right to left, the IR laser mirrors from something and hits me in my eye
          - this usually happens during the day, when cars drive by on the road
 
+55. `2025-09-20 08:51 UTC+3`
+   - yeterday I changed processor power level from `50%` to `100%` in windows power setting, and changed power level of CPU from `10w@0.8GHz` back to `20w@2Ghz`
+   - reconnected CPU cooling fan to mother board so that it could cool down CPU
+   - signed out and turned off laptop
+   - this morning when I wake up, BIOS etting were changed
+      - VTX turned on
+      - VTD turned on
+      - BIOS password check turned off
+
+   - I think one of this happened:
+      1. got hacked again from the internet
+      2. got hacked via the cooling fan
+      3. or someone accessed my laptop physically yesterday while I was outside picking grapes for 3 hours between `13-16 UTC+3`
+      4. or BIOS battery does not have the power level to keep setting, but that would mean all BIOS settings would clear not just a few
+
+56. windows keeps wanting to CHECK DISK on startup
+      - from my previous experience what that does is delete files from my HDD, omeone intentionally steals IP from my laptop, then removes the files and the annotations I created
+         - does not remove extra recovery partitions which I had to remove manually
+         - does not remove SHADOW partitions that are operating over empty disk space
+         - does not remove GHOST partitions operating over exiting large files that are not moved around
+            - I know this is how the rootkit keeps loading back up
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
