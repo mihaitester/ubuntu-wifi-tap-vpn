@@ -1,6 +1,6 @@
 # Summary of research
 Based on my current research on my identity theft and assuming rootkitted devices, if we do not meet in person its not me who you are meeting.
-- I live in `Romania, Bistrita-Nasaud, Bistrita, Strada Poienii nr.10.`
+- I live in `Romania, Bistrita-Nasaud, Bistrita, Strada Poienii nr.10.` `@47.142996,24.4972176`
 - If you get phone calls from me or weird emails requesting money or personal details then its not me. 
 - If you meet me at any other location, then its not me.
 - I am using landline internet connection, but if you check my github you will see more details.
@@ -778,7 +778,7 @@ explorer.exe                  4588 Console                    1    462,648 K
       - I think they are using `RF` emission to hijack the ISP phone and connect to the ISP modem, hijacking my network connection
          - already proved that disconnecting the TV from the coaxial cable causes `ERROR: network connection changed`
 
-65. around `2025-10-07 11:00 - 11:37 UTC+0`
+64. around `2025-10-07 11:00 - 11:37 UTC+0`
    - after whole weekend weird grey car was parked in front of my downtreet neighbour, and they left today
       - i get hacked, hack them instead
    - mom goes inside the big house
@@ -790,6 +790,7 @@ explorer.exe                  4588 Console                    1    462,648 K
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
+   - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
 
             :          |         | P:
             :          |         |  :---------------------------:
