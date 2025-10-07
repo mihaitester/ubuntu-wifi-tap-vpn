@@ -735,6 +735,59 @@ explorer.exe                  4588 Console                    1    462,648 K
          - does not remove GHOST partitions operating over exiting large files that are not moved around
             - I know this is how the rootkit keeps loading back up
 
+57. observed that whenever I unplug the ISP modem from the wall socket, my neighbour uptreet get in a car and then multiple car follow up and down in front of my house
+   - multiple time oberved this FUNNY occurence, at different time of day, I do not think its random
+   - the IP cable i leaving my property through a me of cable at the point `0` where the old electrical and coaxial cable run through
+      - I think not only the neighbour uptreet has spliced my ISP cable through them, but multiple neighbour uptreet and downtreet have done that, basically since I am the only one connected to `VODAFONE` and everyone else is using `DIGI` ISP provider, my cable should be running straight downtreet to the underground cable at the beginning of the street
+         - I think reallity is my cable is actually routed uptreet
+   
+58. observed over `5mw/m2` all around my front property, aligned with the fence
+   - initially I thought it wa the GM tower on the tall bulding in front of my houe
+   - then I realized that by lifting up the meter I get higher reading `7-8mw/m2` at `2.2m` height, indicating the electrical cable is getting used as a radio antenna on my street, it emmits `RF` and not `EF` that means modulated signal
+
+59. observed that mom caughs whenever I come in from the garden and I plug in the ethernet cable, TV turned off, means there are other microphones inside the house
+   - fridge plugged in
+   - water pump plugged in
+   - could be hidden in the wall sockets or the light fixtures
+   - could be her mobile phone, which got multiple modifications
+      - example: does not recognize SIM card if unplugged and then replugged in, phone has to start with the SIM card in, means its loading some code from the SIM
+
+60. observed one night neighbours strolling in between the gas meter `1` and the light pole `2`
+   - I think they are using the square key and the triangular key to stash drugs in front of my property and giving impression its me who is dealing
+
+61. observed multiple times police car slow riding on my street in front of my house, clearly showcasing implication
+   - or its fake car indicating organized crime
+
+62. observed kids on bike comming from uptreet stashing stuff in abandoned cars in front of neighbours downtreet
+   - then after a few minutes another car drove by and picked opened abandoned car picked up something and then left quickly
+
+63. around `2025-10-04 08:30-08:55 UTC+0`
+   - mom talks on the phone that connects to the ISP modem
+   - my SSD get filled from `3Gb` free to `0Gb`
+   - my CPU cooling fan starts throttling
+   - I delete one `700Mb` file
+   - I disconnect the internet cable
+   - I reboot the PC
+   - I log back in without ethernet
+   - I get `1.79Gb` free
+      - so either `chrome.exe` is caching stuff while viewing youtube video
+      - or I am getting hacked and my laptop is used as a cache for hackers moving payload around different network
+         - I think mom calling from the fixed phone is no coincidence, the timing, the neighbour downstreet emitting `RF`, and then cars that drive off when I diconnect ethernet cable
+   - after all this my CPU cooling fan top throttling
+      - I think they are using `MF` emission to hijack motherboard
+      - I think they are using `RF` emission to hijack the ISP phone and connect to the ISP modem, hijacking my network connection
+         - already proved that disconnecting the TV from the coaxial cable causes `ERROR: network connection changed`
+
+65. around `2025-10-07 11:00 - 11:37 UTC+0`
+   - after whole weekend weird grey car was parked in front of my downtreet neighbour, and they left today
+      - i get hacked, hack them instead
+   - mom goes inside the big house
+   - my laptop starts throttling
+   - car drives by the street
+   - I check `RF` emission inside my house and the wall emmits over `5mW/m2` while my laptop emit over `5μT MF` from the central area
+      - rebooting laptop seems to have stopped throttling laptop
+      - emissions are till continuing after reboot
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
 
@@ -749,7 +802,7 @@ explorer.exe                  4588 Console                    1    462,648 K
             :          |          | D |CM_B|     |     O     N| :
             :          |__________| 1   .        |___K________| :
             :                       :.         F      J      E  :
-      ------:--------------------.--:-------[---]---------------:-----------------
+      ------:--------------------.--:-------[---]-2---1--------0:-----------------
                               .               H   .
                            .                          .
       ------------------.---------------------------------.------------------------
@@ -760,6 +813,10 @@ explorer.exe                  4588 Console                    1    462,648 K
       |  .            |
       ----------------------------------------------------------------------------
       T
+
+- 0 - old electrical pole, with electricity and with coaxial cable
+- 1 - gas meter box, has a quare socket
+- 2 - new light pole, has a triangle key socket
 
 - A - water pump `(RF ~ 0.5mW/m2)`
    - despite it being pressure switch
