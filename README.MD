@@ -788,6 +788,18 @@ explorer.exe                  4588 Console                    1    462,648 K
       - rebooting laptop seems to have stopped throttling laptop
       - emissions are till continuing after reboot
 
+65. around `2025-10-08 05:18 UTC+0`
+   - started laptop
+   - opened `explorer.exe`
+   - wanted to create `New Folder` in the `Downloads` folder
+      - the menu item aid `New -> New` intead of `New -> New Folder`
+         - proof of rootkitted OS
+         - `explorer.exe` crashed and retarted by itelf
+      - this happend to me before, multiple times
+      - its like someone is changing stuff on my SSD while I am sleeping, laptop is unplugged, and battery is turned off
+         - or they hijack OS booting and change to different OS image
+            - my theory of running different rootkitted OS images from hidden partitions
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
