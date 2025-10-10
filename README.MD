@@ -800,6 +800,20 @@ explorer.exe                  4588 Console                    1    462,648 K
          - or they hijack OS booting and change to different OS image
             - my theory of running different rootkitted OS images from hidden partitions
 
+66. around `2025-10-10 15:20-15:30 UTC+0`
+   - mom went to bathroom
+   - mom then opened outside door without reason and closed it back
+      - make me think mom and electrician conspired in installing hacking device in wall, but connected to the wall socket in my house
+         - I clearly remember building up the electric grid and having sepparated outdoor line, electric wall socket, and light all onto different circuit breakers
+            - but now all the circuit breakers are like connected in series and not actually interrupting different circuits
+   - then `train` passed by up-north
+      - really weird that whenever `a train` or `a car` passes by, my laptop usually starts throttling, then I get weird behaviour in my OS, considering I diconnected WIFI, HDD, AUDIO, and only POWER and ETHERNET are connected to my laptop
+   - then my selected language pack changed back to default, from the selected one
+      - thinking of rootkitted VM switch
+      - basically different containers are running on my PC or in the cloud
+         - someone or mom is actively switching between different VM
+            - it looks almost seamless to me as the user, but there are some defects
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
