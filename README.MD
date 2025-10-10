@@ -803,7 +803,7 @@ explorer.exe                  4588 Console                    1    462,648 K
 66. around `2025-10-10 15:20-15:30 UTC+0`
    - mom went to bathroom
    - mom then opened outside door without reason and closed it back
-      - make me think mom and electrician conspired in installing hacking device in wall, but connected to the wall socket in my house
+      - makes me think mom and electrician conspired in installing hacking device in wall, but connected to the wall socket in my house
          - I clearly remember building up the electric grid and having sepparated outdoor line, electric wall socket, and light all onto different circuit breakers
             - but now all the circuit breakers are like connected in series and not actually interrupting different circuits
    - then `train` passed by up-north
@@ -820,11 +820,11 @@ explorer.exe                  4588 Console                    1    462,648 K
    - I get `Update virus protection` sidebar pop-up from windows
    - my `on screen keyboard` from the `show touch keyboard button` stopped working, 
       - but opening the `on screen keyboard` from start menu works
-         - make me think different app are rootkitted images, and when I load the apps they perform something extra on top of default behaviour
+         - makes me think different app are rootkitted images, and when I load the apps they perform something extra on top of default behaviour
             - like the `New -> New` context menu in `explorer.exe` that crashes the process
-```
-   IMPORTANT: I cannot fucking change the rootkitted OS image, I already reintalled OS multiple times in the past year, each time after I connect to internet I get hacked
-```
+
+      IMPORTANT: I cannot fucking change the rootkitted OS image, I already reintalled OS multiple times in the past year, each time after I connect to internet I get hacked
+
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
