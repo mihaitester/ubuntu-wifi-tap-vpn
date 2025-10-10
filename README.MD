@@ -814,6 +814,18 @@ explorer.exe                  4588 Console                    1    462,648 K
          - someone or mom is actively switching between different VM
             - it looks almost seamless to me as the user, but there are some defects
 
+67. around `2025-10-10 15:47-15:48 UTC+0`
+   - mom went in big house
+   - car that was at my neighbour uptreet drove by downtreet
+   - I get `Update virus protection` sidebar pop-up from windows
+   - my `on screen keyboard` from the `show touch keyboard button` stopped working, 
+      - but opening the `on screen keyboard` from start menu works
+         - make me think different app are rootkitted images, and when I load the apps they perform something extra on top of default behaviour
+            - like the `New -> New` context menu in `explorer.exe` that crashes the process
+```
+   IMPORTANT: I cannot fucking change the rootkitted OS image, I already reintalled OS multiple times in the past year, each time after I connect to internet I get hacked
+```
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
