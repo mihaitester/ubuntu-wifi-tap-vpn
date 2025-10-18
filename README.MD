@@ -825,6 +825,16 @@ explorer.exe                  4588 Console                    1    462,648 K
 
       IMPORTANT: I cannot fucking change the rootkitted OS image, I already reintalled OS multiple times in the past year, each time after I connect to internet I get hacked
 
+68. around `2025-10-18 16:15-16:25 UTC+0`
+   - locked screen
+   - laptop became unresponsive with black screen
+   - neighbour entered his car
+   - I unplugged laptop and rebooted
+   - train went downtreet afterward
+   - mom goes out and turn on outdoor light
+      - clearly I observed this pattern multiple times, over 10 times already throughout this year
+      - note: my house is watched from the blocks across the train tracks
+
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
