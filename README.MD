@@ -850,8 +850,19 @@ explorer.exe                  4588 Console                    1    462,648 K
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
+               :                       :                           : 
+               :                       :                           :
+         -----------------------------------------------------------------------------
+         backstreet                                                         backstreet
 
-               :          |         | P:
+         -----------------------------------------------------------------------------
+               :                       :                           :
+               :                       :                           :
+               :                       :                           :
+               :           ---------   :                           :
+               :          |         |  :                           :
+               :          |         |  :                           :
+               :          |         | P:                           :
                :          |         |  :---------------------------:
                :           ---------   :  ____                  __ :
                :                       : |____|  L   ______    |  |:
@@ -859,11 +870,11 @@ explorer.exe                  4588 Console                    1    462,648 K
                :           __________  : |A   |     |      |_____  :
                :          |          | : |    |     |            | :
                :          |          | : |    |     |            | :
-               :          |          | D |CM_B|     |     O     N| :
+               :          |       [X]| D |CM_B|     |     O     N| :
                :          |__________| 1   .        |___K________| :
                :                       :.         F      J      E  :
          ------:--------------------.--:-------[---]-2---1--------0:-----------------
-                                 .               H   .
+         downtreet               .               H   .                       upstreet
                               .                          .
          ------------------.---------------------------------.-----------------------
                         .              Q                        .   R
@@ -913,6 +924,66 @@ explorer.exe                  4588 Console                    1    462,648 K
 - Q - magical car blue, before there was 1 yellow van for a year
 - R - neighbour car van, conveniently placed
 - T - loading ramp for train depot
+
+Summary - what I think:
+1. neighbour downtreet has mobile GSM base 
+   - and illegally hijacks my phone call or my SMS and my mobile internet 
+      - see stingray for reference
+   - when I turn on new mobile phone in the area I get Android OS update through which they hijack my phone
+   - they alo have ome EMF emitter that hijacks my laptop and my ISP and my TV
+      - they literally follow me around my home with EMF beam, and the only solution so far is to keep moving laptop outside of their range or behind thicker wall
+         + I have video proof of EMF emission following my laptop through my house
+
+2. neighbour from backtreet with ATV drove in front of my house and could hijack my WIFI
+   - I changed WIFI multiple times and they could hijack even WIFI on low power, and with hidden SSID
+   - I disabled WIFI from IP modem and attached TP-link WIFI router
+   - I used Rapberry Pi with 5ghz wifi adapter 
+      - this guy managed to hijack all my device on the same day I set them up, just by driving in front of my house
+   -> I stopped using WIFI at all because of this guy
+
+3. neighbour upstreet had my coaxial cable hijacked
+   - then afterwards multiple people on the street started doing the same thing
+   - my cable does not go downtreet as I would presume to the end of the street where it goes underground
+      - multiple operators from different provider come and work on the electric pole and change the coaxial cable:
+         - DIGI, ORANGE - marked cars
+         - white, black, blue - unmarked cars with long ladder on top
+         - while my IP provide is VODAFONE, and they hould not be fucking around with my cable
+            - how I know:
+               - TV stops
+               - the internet stops
+                  - then I get network connection changed errors in browser after internet recovers
+      - for the past 3 years they have been continouly doing this to me
+         - I can name companies that I worked for remotely and afterward these bullshits started happening
+         - I can name university which hacked my laptop using microsoft license hack
+            - I think they are running multiple SPIES that impersonate me
+
+   - they keep appearing in front of my house multiple times, like pretending to be living here at my address
+      - I have video proof of that
+
+4. my SSD and my windows installation flash disk are rootkitted
+   - my mom allowed physical access of my devices
+   - hence they can impersonate me, and see everything I do on my laptop
+      - usually I watch youtube videos, or porn, or I write code
+         - I hardly consider any of these activities illegal
+            - but the shit they did to me, like deleting job applications from company databases is illegal, or interception of my phone calls, or me missing phone calls
+            - or using my laptop to trigger botnets
+               - I think they must be doing something else than just watching me
+               - or they are targetting the people I am watching on youtube, and hacking them, or extorting them or worse
+
+5. multiple weird cars show up when the train comes from uptreet
+   - I think they are hijacking my laptop through electrical grid fuzzing
+      - and they communicate drug dealing stash locations or meetups
+         - they have been doing this so many fucking times
+            - only way is for me to literally stop all electric devices inside the house
+
+6. multiple neighbours on backstreet doing protitution and in the blocks in front of the house
+   
+7. I can name the location of a `double mirror` bathroom that stole naked pictures of me
+   -> I think they are using me or my image to catfish or honey-trap women, or to steal money through scams
+
+-> literally the past 5 years have been absolute bullshit, so can someone explain why the fuck they are targetting me
+   - since living back in Romania
+-> I would have never been any fucking wiser if people did not hack my laptop and my phone and interrupt me or block me from getting IT job abroad
 
 # Next steps
 1. Need to write some python scripts that can process the capture files from `client` and `tap` and then compare to find differences.
