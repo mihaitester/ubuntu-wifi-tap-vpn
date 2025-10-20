@@ -850,8 +850,7 @@ explorer.exe                  4588 Console                    1    462,648 K
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
-               :                       :                           : 
-               :                       :                           :
+
          -----------------------------------------------------------------------------
          backstreet                                                         backstreet
 
