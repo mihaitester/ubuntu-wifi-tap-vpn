@@ -835,6 +835,17 @@ explorer.exe                  4588 Console                    1    462,648 K
       - clearly I observed this pattern multiple times, over 10 times already throughout this year
       - note: my house is watched from the blocks across the train tracks
 
+69. around `2025-10-20 14:50-14:55 UTC+0`
+   - mom called grandma on fixed phone with WIFI base 
+      - see `diagram 11`
+   - my laptop started CPU throttling
+   - I unplugged ethernet cable
+      - heard unplugged audio sound twice
+   - went outside
+   - one car parked in front
+   - another car drove by
+      - it has to be a proximity based hacking, someone hijacks my laptop and then they gain access to my internet connection
+
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
