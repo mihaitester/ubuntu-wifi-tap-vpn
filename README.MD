@@ -846,13 +846,18 @@ explorer.exe                  4588 Console                    1    462,648 K
    - another car drove by
       - it has to be a proximity based hacking, someone hijacks my laptop and then they gain access to my internet connection
 
+70. around `2025-10-20 18:30-18:32 UTC+0`
+   - heard loud bang outside
+   - my OS changed behaviour, animations look different
+      - its missing languange packs that I installed before
+         - I think this proves that they are running a proximity hacking device
 
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
 
          -----------------------------------------------------------------------------
-         backstreet                                                         backstreet
+                                                                            backstreet
 
          -----------------------------------------------------------------------------
                :                       :                           :
