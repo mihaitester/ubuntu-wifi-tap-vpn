@@ -852,6 +852,12 @@ explorer.exe                  4588 Console                    1    462,648 K
       - its missing languange packs that I installed before
          - I think this proves that they are running a proximity hacking device
 
+71. around `2025-10-22 20:05 UTC+0`
+   - I get SIM not proviioned popup on my phone
+   - then I stopped having mobile internet, despite having payed for 1 year subcription
+      - someone is hijacking my device and pretending to be me with cloned ware
+      - they are blocking my access to internet other than through cable which they are hijacking also
+
 # RF map - everything diagram
 - main takeaway, front fence is peppered with RF, tracking devices walking/driving on street
    - after checking multiple time realized it the main electrical line that is emitting RF along the fence line
